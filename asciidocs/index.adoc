@@ -1,0 +1,23 @@
+= Dokumentation Leonie / 22-23 / 4bhitm / ITP
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+
+== Notes
+
+* Leonie 2D Frontend (wie kommen die Antworten zum Benutzer)
+* Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)
+* Leonie 2D Dashboard (wie kann ein administrator sich die Konversationen anschauen, filtern und bearbeiten) (wie funktioniert das trainierren eines Rasa models mithilfe der Dashboard)
+* Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)
