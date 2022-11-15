@@ -21,3 +21,9 @@ ifdef::backend-html5[]
 * Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)
 * Leonie 2D Dashboard (wie kann ein administrator sich die Konversationen anschauen, filtern und bearbeiten) (wie funktioniert das trainierren eines Rasa models mithilfe der Dashboard)
 * Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)
+
+== Usecase diagrams
+
+image::plantuml/admin-ucd.puml[]
+image::plantuml/school-ucd.puml[]
+image::plantuml/user-ucd.puml[]

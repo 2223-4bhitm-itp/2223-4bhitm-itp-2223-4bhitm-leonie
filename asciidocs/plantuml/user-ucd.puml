@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor "User" as fc
+rectangle Leonie-Chatbot {
+  usecase "Sinnvolle Fragen stellen und dafür Antworten bekommen" as UC1
+
+}
+fc -- UC1
+
+@enduml
+
+
