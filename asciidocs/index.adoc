@@ -38,3 +38,7 @@ include::plantuml/school-ucd.puml[]
 include::plantuml/user-ucd.puml[]
 ----
 
+
+== Aufgabe 15-11-22
+Nächstes mal Leonie Starten können
+Erklären der RASA Architektur und der vorhandenen Repo Struktur - ink Doku über diese Steps ned komplette Doku über des ganze Projekt
