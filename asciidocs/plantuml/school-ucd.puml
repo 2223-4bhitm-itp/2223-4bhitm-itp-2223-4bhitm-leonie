@@ -1,10 +1,10 @@
 @startuml
 left to right direction
 actor "school" as fc
-rectangle Leonie-Chatbot {
-  usecase " Potentielle Fragen von Schülern und Eltern beantworten" as UC1
-  usecase " die Leonie als Produkt Präsentieren" as UC2
-  usecase "den Schulalltag veranschaulichen" as UC3
+rectangle Leonie-chatbot {
+  usecase "answering potential questions from students and parents" as UC1
+  usecase "presenting Leonie" as UC2
+  usecase "illustrate everyday school life" as UC3
 }
 fc -- UC1
 fc -- UC2

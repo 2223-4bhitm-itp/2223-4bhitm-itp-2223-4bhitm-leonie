@@ -1,10 +1,10 @@
 @startuml
 left to right direction
-actor "Admin" as fc
-rectangle Leonie-Chatbot-System {
-  usecase " Bisherige Konversationen Anschauen" as UC1
-  usecase " Daten des Rasa Modells ändern" as UC2
-  usecase "Rasa model trainieren und bereitstellen" as UC3
+actor "admin" as fc
+rectangle Leonie-chatbot-system {
+  usecase "viewing past conversations" as UC1
+  usecase "changing data of the RASA model" as UC2
+  usecase "training and provide RASA model" as UC3
 }
 fc -- UC1
 fc -- UC2
