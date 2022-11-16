@@ -1,0 +1,23 @@
+= Sprint-overview Leonie / 22-23 / 4bhitm / ITP
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+[options="header"]
+|====
+|date|teacher|task|state
+|15-11-22 |Prof. Stütz |being able to start Leonie |
+|15-11-22 |Prof. Stütz |explaining RASA architecture and existing repo structure |
+|15-11-22 |Prof. Stütz |documenting how RASA works & how to install and start it |
+|====

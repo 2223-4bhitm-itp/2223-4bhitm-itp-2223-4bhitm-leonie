@@ -1,8 +1,8 @@
 @startuml
 left to right direction
-actor "User" as fc
-rectangle Leonie-Chatbot {
-  usecase "Sinnvolle Fragen stellen und dafür Antworten bekommen" as UC1
+actor "user" as fc
+rectangle Leonie-chatbot {
+  usecase "asking questions about the school and receiving answers" as UC1
 
 }
 fc -- UC1
