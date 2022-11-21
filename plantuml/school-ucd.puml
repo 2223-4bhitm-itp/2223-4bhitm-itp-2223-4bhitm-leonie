@@ -4,7 +4,7 @@ actor "school" as fc
 rectangle Leonie-chatbot {
   usecase "answering potential questions from students and parents" as UC1
   usecase "presenting Leonie" as UC2
-  usecase "illustrate everyday school life" as UC3
+  usecase "illustrating everyday school life" as UC3
 }
 fc -- UC1
 fc -- UC2
