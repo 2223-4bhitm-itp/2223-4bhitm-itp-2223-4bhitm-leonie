@@ -32,6 +32,12 @@ Content entered directly below the header but before the first section heading i
 - the label of a response look like => ``utter_<Some label>``
 - You should change the policies in the ``config.yml`` if you want to manipulate the way your bot responses to the users
 
+- The response can include:
+   1. Text
+   2. images
+   3. Custom ui elements (markdown)
+   4. Buttons
+
 
 === Slots
 These are variables which has the ability to change the flow of the conversation +
