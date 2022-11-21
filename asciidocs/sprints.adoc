@@ -18,7 +18,7 @@ ifdef::backend-html5[]
 [options="header"]
 |====
 |date|teacher|task|state
-|15-11-22 |Prof. Stütz |being able to start Leonie |
+|15-11-22 |Prof. Stütz |being able to start Leonie | icon:check[]
 |15-11-22 |Prof. Stütz |explaining RASA architecture and existing repo structure |
 |15-11-22 |Prof. Stütz |documenting how RASA works & how to install and start it |
 |====
