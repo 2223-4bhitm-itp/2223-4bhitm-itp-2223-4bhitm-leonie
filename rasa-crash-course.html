@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="Abdulrahman Al Sabgh">
+<meta name="author" content="Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Rasa crash course</title>
+<title>RASA-crash-course / 22-23 / 4bhitm / ITP</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -656,12 +656,12 @@ pre.rouge {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Rasa crash course</h1>
+<h1>RASA-crash-course / 22-23 / 4bhitm / ITP</h1>
 <div class="details">
-<span id="author" class="author">Abdulrahman Al Sabgh</span><br>
-<span id="revnumber">version 3.0,</span>
-<span id="revdate">July 29, 2022</span>
-<br><span id="revremark">AsciiDoc article template</span>
+<span id="author" class="author">Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman</span><br>
+<span id="revnumber">version 1.0.0,</span>
+<span id="revdate">2022-11-21</span>
+<br><span id="revremark">Informationstechnische Projekte</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -681,13 +681,6 @@ pre.rouge {
 </div>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Content entered directly below the header but before the first section heading is called the preamble.</p>
-</div>
-</div>
-</div>
 <div class="sect1">
 <h2 id="_the_files_in_a_rasa_project"><a class="anchor" href="#_the_files_in_a_rasa_project"></a>1. The files in a rasa project</h2>
 <div class="sectionbody">
@@ -726,7 +719,7 @@ pre.rouge {
 <div class="ulist">
 <ul>
 <li>
-<p>These are the responses of the bot and could be found in  <code>domain.yml </code></p>
+<p>These are the responses of the bot and could be found in  `domain.yml `</p>
 </li>
 <li>
 <p>the label of a response look like &#8658; <code>utter_&lt;Some label&gt;</code></p>
@@ -928,58 +921,48 @@ I want to order <code>Pizza</code>,<code>Soup</code> and a <code>Sandwich</code>
 <h2 id="_rasa_commands"><a class="anchor" href="#_rasa_commands"></a>3. Rasa commands</h2>
 <div class="sectionbody">
 <div class="listingblock">
+<div class="title">Initialize rasa projekt</div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="shell">rasa init</code></pre>
 </div>
 </div>
 <div class="listingblock">
+<div class="title">View possible commands and parameters</div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="shell">rasa <span class="nt">-h</span></code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>to view the possible commands and parameters</p>
-</div>
 <div class="listingblock">
+<div class="title">Apply changes to your bot</div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="shell">rasa train</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>To apply the changes to your bot</p>
-</div>
 <div class="listingblock">
+<div class="title">Starting a conversation</div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="shell">rasa shell</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>You can start a conversation with this command</p>
-</div>
 <div class="listingblock">
+<div class="title">Debugging tool, running the stories and add training data</div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="shell">rasa interactive</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>Could be used as a debugging tool and as a tool to run the stories.
-You have to the ability to add training data through this command</p>
-</div>
 <div class="listingblock">
+<div class="title">Start rasa&#8217;s gui</div>
 <div class="content">
 <pre class="rouge highlight"><code data-lang="shell">rasa x</code></pre>
 </div>
-</div>
-<div class="paragraph">
-<p>TO start rasa&#8217;s gui</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 3.0<br>
-Last updated 2022-11-21 22:29:30 UTC
+Version 1.0.0<br>
+Last updated 2022-11-21 22:33:14 UTC
 </div>
 </div>
 </body>
