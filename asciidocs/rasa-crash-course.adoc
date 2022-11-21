@@ -150,4 +150,8 @@ rasa interactive
 Could be used as a debugging tool and as a tool to run the stories.
 You have to the ability to add training data through this command
 
-
+[source,shell]
+----
+rasa x
+----
+TO start rasa's gui
