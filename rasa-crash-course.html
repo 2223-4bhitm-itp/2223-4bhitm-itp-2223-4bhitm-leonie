@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman">
+<meta name="author" content="Abdulrahman Al Sabgh">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Dokumentation Leonie / 22-23 / 4bhitm / ITP</title>
+<title>Rasa crash course</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -438,93 +438,520 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+pre.rouge table td { padding: 5px; }
+pre.rouge table pre { margin: 0; }
+pre.rouge .cm {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cp {
+  color: #999999;
+  font-weight: bold;
+}
+pre.rouge .c1 {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+pre.rouge .c, pre.rouge .ch, pre.rouge .cd, pre.rouge .cpf {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+pre.rouge .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+pre.rouge .ge {
+  color: #000000;
+  font-style: italic;
+}
+pre.rouge .gr {
+  color: #aa0000;
+}
+pre.rouge .gh {
+  color: #999999;
+}
+pre.rouge .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+pre.rouge .go {
+  color: #888888;
+}
+pre.rouge .gp {
+  color: #555555;
+}
+pre.rouge .gs {
+  font-weight: bold;
+}
+pre.rouge .gu {
+  color: #aaaaaa;
+}
+pre.rouge .gt {
+  color: #aa0000;
+}
+pre.rouge .kc {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kd {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kn {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kp {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kr {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kt {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .k, pre.rouge .kv {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .mf {
+  color: #009999;
+}
+pre.rouge .mh {
+  color: #009999;
+}
+pre.rouge .il {
+  color: #009999;
+}
+pre.rouge .mi {
+  color: #009999;
+}
+pre.rouge .mo {
+  color: #009999;
+}
+pre.rouge .m, pre.rouge .mb, pre.rouge .mx {
+  color: #009999;
+}
+pre.rouge .sa {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .sb {
+  color: #d14;
+}
+pre.rouge .sc {
+  color: #d14;
+}
+pre.rouge .sd {
+  color: #d14;
+}
+pre.rouge .s2 {
+  color: #d14;
+}
+pre.rouge .se {
+  color: #d14;
+}
+pre.rouge .sh {
+  color: #d14;
+}
+pre.rouge .si {
+  color: #d14;
+}
+pre.rouge .sx {
+  color: #d14;
+}
+pre.rouge .sr {
+  color: #009926;
+}
+pre.rouge .s1 {
+  color: #d14;
+}
+pre.rouge .ss {
+  color: #990073;
+}
+pre.rouge .s, pre.rouge .dl {
+  color: #d14;
+}
+pre.rouge .na {
+  color: #008080;
+}
+pre.rouge .bp {
+  color: #999999;
+}
+pre.rouge .nb {
+  color: #0086B3;
+}
+pre.rouge .nc {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .no {
+  color: #008080;
+}
+pre.rouge .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+pre.rouge .ni {
+  color: #800080;
+}
+pre.rouge .ne {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nf, pre.rouge .fm {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nl {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nn {
+  color: #555555;
+}
+pre.rouge .nt {
+  color: #000080;
+}
+pre.rouge .vc {
+  color: #008080;
+}
+pre.rouge .vg {
+  color: #008080;
+}
+pre.rouge .vi {
+  color: #008080;
+}
+pre.rouge .nv, pre.rouge .vm {
+  color: #008080;
+}
+pre.rouge .ow {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .o {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .w {
+  color: #bbbbbb;
+}
+pre.rouge {
+  background-color: #f8f8f8;
+}
+</style>
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Dokumentation Leonie / 22-23 / 4bhitm / ITP</h1>
+<h1>Rasa crash course</h1>
 <div class="details">
-<span id="author" class="author">Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman</span><br>
-<span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2022-11-21</span>
-<br><span id="revremark">Informationstechnische Projekte</span>
+<span id="author" class="author">Abdulrahman Al Sabgh</span><br>
+<span id="revnumber">version 3.0,</span>
+<span id="revdate">July 29, 2022</span>
+<br><span id="revremark">AsciiDoc article template</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_important_files">1. Important Files</a>
+<li><a href="#_the_files_in_a_rasa_project">1. The files in a rasa project</a></li>
+<li><a href="#_the_main_components_of_rasa">2. The main components of rasa</a>
 <ul class="sectlevel2">
-<li><a href="#_sprints">1.1. Sprints</a></li>
-<li><a href="#_rasa">1.2. RASA</a></li>
+<li><a href="#_responses">2.1. Responses</a></li>
+<li><a href="#_slots">2.2. Slots</a></li>
+<li><a href="#_intents">2.3. Intents</a></li>
+<li><a href="#_entities">2.4. Entities</a></li>
+<li><a href="#_rasa_forms_an_actions">2.5. Rasa forms an actions</a></li>
 </ul>
 </li>
-<li><a href="#_notes">2. Notes</a></li>
-<li><a href="#_usecase_diagrams">3. Usecase diagrams</a></li>
+<li><a href="#_rasa_commands">3. Rasa commands</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_important_files"><a class="anchor" href="#_important_files"></a>1. Important Files</h2>
+<div id="preamble">
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_sprints"><a class="anchor" href="#_sprints"></a>1.1. Sprints</h3>
 <div class="paragraph">
-<p><a href="https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/sprints">Sprint  Documentation</a></p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_rasa"><a class="anchor" href="#_rasa"></a>1.2. RASA</h3>
-<div class="paragraph">
-<p><a href="https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-installation">installation Linux / Mac</a></p>
-</div>
+<p>Content entered directly below the header but before the first section heading is called the preamble.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_notes"><a class="anchor" href="#_notes"></a>2. Notes</h2>
+<h2 id="_the_files_in_a_rasa_project"><a class="anchor" href="#_the_files_in_a_rasa_project"></a>1. The files in a rasa project</h2>
 <div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>nlu.yml</code> This is the place where you can add your training data intents and entities</p>
+</li>
+<li>
+<p><code>domain.yml</code> In this file you can include your actions, responses, slots, intentions and entities</p>
+</li>
+<li>
+<p><code>rules.yml</code> You can define the roles and forms in this file</p>
+</li>
+<li>
+<p><code>stories.yml</code> for defining stories</p>
+</li>
+<li>
+<p><code>config.yml</code> change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot</p>
+</li>
+<li>
+<p><code>actions.yml</code> You will write the actions in this file using python</p>
+</li>
+<li>
+<p><code><em>init</em>.py</code> If you want to execute a specific command when starting the chatbot</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_main_components_of_rasa"><a class="anchor" href="#_the_main_components_of_rasa"></a>2. The main components of rasa</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_responses"><a class="anchor" href="#_responses"></a>2.1. Responses</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Leonie 2D Frontend (wie kommen die Antworten zum Benutzer)</p>
+<p>These are the responses of the bot and could be found in  <code>domain.yml </code></p>
 </li>
 <li>
-<p>Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)</p>
+<p>the label of a response look like &#8658; <code>utter_&lt;Some label&gt;</code></p>
 </li>
 <li>
-<p>Leonie 2D Dashboard (wie kann ein administrator sich die Konversationen anschauen, filtern und bearbeiten) (wie funktioniert das trainierren eines Rasa models mithilfe der Dashboard)</p>
+<p>You should change the policies in the <code>config.yml</code> if you want to manipulate the way your bot responses to the users</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_slots"><a class="anchor" href="#_slots"></a>2.2. Slots</h3>
+<div class="paragraph">
+<p>These are variables which has the ability to change the flow of the conversation<br>
+example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="md">User: I want to order pizza, cola and 2 burgers
+Bot: Pizza, cola and 2 bugers orderd successfully</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Slots could be defined and used in domain.yml</p>
 </li>
 <li>
-<p>Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)</p>
+<p>another example <code>I want to book a flight to sydney</code>. In this case sydney is the variable and the bot would query all  records to response with a list which contains all available tickets</p>
+</li>
+<li>
+<p>You can set up slots using in your nlu, or you can create your own custom hook</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_mapping_slots"><a class="anchor" href="#_mapping_slots"></a>2.2.1. mapping slots</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>from an entity</p>
+</li>
+<li>
+<p>from text e.g a message from a user</p>
+</li>
+<li>
+<p>calling a specific intent</p>
+</li>
+<li>
+<p>custom slots</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_intents"><a class="anchor" href="#_intents"></a>2.3. Intents</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>We can define it as a specific category for input data of the user. An intent include many sentences, words , etc. which have the same meaning</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"> <span class="na">intent</span><span class="pi">:</span> <span class="s">mood_great</span>
+    <span class="s">examples</span><span class="err">:</span> <span class="pi">|</span>
+      <span class="s">- perfect</span>
+      <span class="s">- great</span>
+      <span class="s">- amazing</span>
+      <span class="s">- feeling like a king</span>
+      <span class="s">- wonderful</span></code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The data inside an intent calls learning data. These could be generated using machine learning or the stories</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_rules"><a class="anchor" href="#_rules"></a>2.3.1. rules</h4>
+<div class="paragraph">
+<p>It defines how the response on a specific input should look like
+example:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If I say hello the bot should say hello</p>
+</li>
+<li>
+<p>If I say bye the bot should say bye</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_stories"><a class="anchor" href="#_stories"></a>2.3.2. stories</h4>
+<div class="paragraph">
+<p>These define the flow of a specific  conversation. The difference between a story and a rule is that the bot can learn more from a story and add some vocabs to the intents in the nlu file</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_entities"><a class="anchor" href="#_entities"></a>2.4. Entities</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Entities can handle a specific input like the input of the telephone number</p>
+</li>
+<li>
+<p>There are 3 way to add entities to your <code>nlu.yml</code></p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Using regex</p>
+</li>
+<li>
+<p>Using pre-built rasa-modules</p>
+</li>
+<li>
+<p>Using machine learning</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>You should include the entity in the <code>domain.yml</code> if you want to use it</p>
+</li>
+<li>
+<p>Entities can handle synonyms</p>
+</li>
+<li>
+<p>Entities can handle specific roles example:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="md"><span class="p">-</span> I want to book a flight from vienna to berlin</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In this example you should use the entity to specify the location which is vienna in this  example and the destination which is berlin in this example<br></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Entities can handle Groups. If 2 keywords or more which have the same functionality  example:<br>
+I want to order <code>Pizza</code>,<code>Soup</code> and a <code>Sandwich</code>.<br></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>These 3 highlighted words do not have a specific role. They belong to a specific group which could we call order</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rasa_forms_an_actions"><a class="anchor" href="#_rasa_forms_an_actions"></a>2.5. Rasa forms an actions</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>If the slots are not filled then the form will keep asking for information</p>
+</li>
+<li>
+<p>actions are then the processes that should be done after getting all required information. This should be included in the <code>domain.yml</code> file and implemented in <code>actions.py</code></p>
+</li>
+<li>
+<p>A form could be validated it using an action</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <div class="sect1">
-<h2 id="_usecase_diagrams"><a class="anchor" href="#_usecase_diagrams"></a>3. Usecase diagrams</h2>
+<h2 id="_rasa_commands"><a class="anchor" href="#_rasa_commands"></a>3. Rasa commands</h2>
 <div class="sectionbody">
-<div class="imageblock">
+<div class="listingblock">
 <div class="content">
-<img src="images/admin-ucd.puml.png" alt="admin ucd" width="396" height="298">
+<pre class="rouge highlight"><code data-lang="shell">rasa init</code></pre>
 </div>
 </div>
-<div class="imageblock">
+<div class="listingblock">
 <div class="content">
-<img src="images/school-ucd.puml.png" alt="school ucd" width="555" height="314">
+<pre class="rouge highlight"><code data-lang="shell">rasa <span class="nt">-h</span></code></pre>
 </div>
 </div>
-<div class="imageblock">
+<div class="paragraph">
+<p>to view the possible commands and parameters</p>
+</div>
+<div class="listingblock">
 <div class="content">
-<img src="images/user-ucd.puml.png" alt="user ucd" width="541" height="151">
+<pre class="rouge highlight"><code data-lang="shell">rasa train</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>To apply the changes to your bot</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="shell">rasa shell</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can start a conversation with this command</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="shell">rasa interactive</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Could be used as a debugging tool and as a tool to run the stories.
+You have to the ability to add training data through this command</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.0<br>
+Version 3.0<br>
 Last updated 2022-11-21 20:17:24 UTC
 </div>
 </div>
