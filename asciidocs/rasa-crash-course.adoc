@@ -1,26 +1,32 @@
-= Rasa crash course
-Abdulrahman Al Sabgh
-3.0, July 29, 2022: AsciiDoc article template
-:toc:
+= RASA-crash-course / 22-23 / 4bhitm / ITP
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
 :icons: font
-:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
 
-Content entered directly below the header but before the first section heading is called the preamble.
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
 
+// print the toc here (not at the default position)
+//toc::[]
 == The files in a rasa project
-1. ``nlu.yml`` This is the place where you can add your training data intents and entities
+1. `nlu.yml` This is the place where you can add your training data intents and entities
 
-2. ``domain.yml`` In this file you can include your actions, responses, slots, intentions and entities
+2. `domain.yml` In this file you can include your actions, responses, slots, intentions and entities
 
-3. ``rules.yml`` You can define the roles and forms in this file
+3. `rules.yml` You can define the roles and forms in this file
 
-4. ``stories.yml`` for defining stories
+4. `stories.yml` for defining stories
 
-5. ``config.yml`` change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot
+5. `config.yml` change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot
 
-6. ``actions.yml`` You will write the actions in this file using python
+6. `actions.yml` You will write the actions in this file using python
 
-7. ``__init__.py`` If you want to execute a specific command when starting the chatbot
+7. `__init__.py` If you want to execute a specific command when starting the chatbot
 
 
 
@@ -28,9 +34,9 @@ Content entered directly below the header but before the first section heading i
 
 === Responses
 
-- These are the responses of the bot and could be found in  ``domain.yml ``
-- the label of a response look like => ``utter_<Some label>``
-- You should change the policies in the ``config.yml`` if you want to manipulate the way your bot responses to the users
+- These are the responses of the bot and could be found in  `domain.yml `
+- the label of a response look like => `utter_<Some label>`
+- You should change the policies in the `config.yml` if you want to manipulate the way your bot responses to the users
 
 - The response can include:
    1. Text
@@ -94,11 +100,11 @@ These define the flow of a specific  conversation. The difference between a stor
 === Entities
 
 - Entities can handle a specific input like the input of the telephone number
-- There are 3 way to add entities to your ``nlu.yml``
+- There are 3 way to add entities to your `nlu.yml`
  1. Using regex
  2. Using pre-built rasa-modules
  3. Using machine learning
-- You should include the entity in the ``domain.yml`` if you want to use it
+- You should include the entity in the `domain.yml` if you want to use it
 
 - Entities can handle synonyms
 - Entities can handle specific roles example:
@@ -119,45 +125,45 @@ These 3 highlighted words do not have a specific role. They belong to a specific
 
 - If the slots are not filled then the form will keep asking for information
 
-- actions are then the processes that should be done after getting all required information. This should be included in the ``domain.yml`` file and implemented in ``actions.py``
+- actions are then the processes that should be done after getting all required information. This should be included in the `domain.yml` file and implemented in `actions.py`
 
 - A form could be validated it using an action
 
 
 == Rasa commands
 
+.Initialize rasa projekt
 [source,shell]
 ----
 rasa init
 ----
 
+.View possible commands and parameters
 [source,shell]
 ----
 rasa -h
 ----
-to view the possible commands and parameters
 
+.Apply changes to your bot
 [source,shell]
 ----
 rasa train
 ----
-To apply the changes to your bot
 
+.Starting a conversation
 [source,shell]
 ----
 rasa shell
 ----
-You can start a conversation with this command
 
+.Debugging tool, running the stories and add training data
 [source,shell]
 ----
 rasa interactive
 ----
-Could be used as a debugging tool and as a tool to run the stories.
-You have to the ability to add training data through this command
 
+.Start rasa's gui
 [source,shell]
 ----
 rasa x
 ----
-TO start rasa's gui
