@@ -1,0 +1,153 @@
+= Rasa crash course
+Abdulrahman Al Sabgh
+3.0, July 29, 2022: AsciiDoc article template
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+Content entered directly below the header but before the first section heading is called the preamble.
+
+== The files in a rasa project
+1. ``nlu.yml`` This is the place where you can add your training data intents and entities
+
+2. ``domain.yml`` In this file you can include your actions, responses, slots, intentions and entities
+
+3. ``rules.yml`` You can define the roles and forms in this file
+
+4. ``stories.yml`` for defining stories
+
+5. ``config.yml`` change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot
+
+6. ``actions.yml`` You will write the actions in this file using python
+
+7. ``__init__.py`` If you want to execute a specific command when starting the chatbot
+
+
+
+== The main components of rasa
+
+=== Responses
+
+- These are the responses of the bot and could be found in  ``domain.yml ``
+- the label of a response look like => ``utter_<Some label>``
+- You should change the policies in the ``config.yml`` if you want to manipulate the way your bot responses to the users
+
+
+=== Slots
+These are variables which has the ability to change the flow of the conversation +
+example:
+
+[source,md]
+----
+User: I want to order pizza, cola and 2 burgers
+Bot: Pizza, cola and 2 bugers orderd successfully
+----
+
+- Slots could be defined and used in domain.yml
+- another example `I want to book a flight to sydney`. In this case sydney is the variable and the bot would query all  records to response with a list which contains all available tickets
+- You can set up slots using in your nlu, or you can create your own custom hook
+
+==== mapping slots
+
+- from an entity
+- from text e.g a message from a user
+- calling a specific intent
+- custom slots
+
+=== Intents
+
+- We can define it as a specific category for input data of the user. An intent include many sentences, words , etc. which have the same meaning
+
+[source,yaml]
+----
+ intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+
+----
+
+- The data inside an intent calls learning data. These could be generated using machine learning or the stories
+
+==== rules
+
+It defines how the response on a specific input should look like
+example:
+
+- If I say hello the bot should say hello
+- If I say bye the bot should say bye
+
+==== stories
+
+These define the flow of a specific  conversation. The difference between a story and a rule is that the bot can learn more from a story and add some vocabs to the intents in the nlu file
+
+
+=== Entities
+
+- Entities can handle a specific input like the input of the telephone number
+- There are 3 way to add entities to your ``nlu.yml``
+ 1. Using regex
+ 2. Using pre-built rasa-modules
+ 3. Using machine learning
+- You should include the entity in the ``domain.yml`` if you want to use it
+
+- Entities can handle synonyms
+- Entities can handle specific roles example:
+
+[source,md]
+----
+- I want to book a flight from vienna to berlin
+----
+
+In this example you should use the entity to specify the location which is vienna in this  example and the destination which is berlin in this example +
+
+- Entities can handle Groups. If 2 keywords or more which have the same functionality  example: +
+I want to order `Pizza`,`Soup` and a `Sandwich`. +
+
+These 3 highlighted words do not have a specific role. They belong to a specific group which could we call order
+
+=== Rasa forms an actions
+
+- If the slots are not filled then the form will keep asking for information
+
+- actions are then the processes that should be done after getting all required information. This should be included in the ``domain.yml`` file and implemented in ``actions.py``
+
+- A form could be validated it using an action
+
+
+== Rasa commands
+
+[source,shell]
+----
+rasa init
+----
+
+[source,shell]
+----
+rasa -h
+----
+to view the possible commands and parameters
+
+[source,shell]
+----
+rasa train
+----
+To apply the changes to your bot
+
+[source,shell]
+----
+rasa shell
+----
+You can start a conversation with this command
+
+[source,shell]
+----
+rasa interactive
+----
+Could be used as a debugging tool and as a tool to run the stories.
+You have to the ability to add training data through this command
+
+
