@@ -1,0 +1,61 @@
+= Starting Leonie Chatbot / 22-23 / 4bhitm / ITP
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+== Starting Leonie with HOLO
+
+NOTE: Default Location: first floor, on the left side
+
+=== Cables and periphery
+
+* Cables - usually - bottom or middle
+* Keyboard with Mouse, Mic - top
+
+=== Connect Power, Display and Ethernet
+
+Open the back of Leonie:
+
+* Connect the power strip _(bottom)_ to an outlet
+* Connect the ethernet-cable with an ethernet-port
+** use the far left the others are not working properly
+* Connect the HDMI Cable to the Monitor
+** use the signal booster
+
+=== Start the Computer
+
+* Press the start-button of the PC
+** top-left in the middle of the case (biggest button)
+
+=== Automation
+
+A terminal window should be shown
+
+* press any Key
+
+Leonie is now shown
+
+* Wrong Screen?
+** usw `WIN` + `SHIFT` + `ARROWS` to rearrange
+
+Now everything is working and you can Chat with Leonie
+
+=== Chatting
+
+Try some funn stuff:
+[source,md]
+----
+wo ist Prof. Stütz gerade
+----
+
+Or just click on the chats on the left side and see what happen
