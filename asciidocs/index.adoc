@@ -17,35 +17,22 @@ ifdef::backend-html5[]
 == Important Files
 
 === Sprints
-https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/sprints[Sprint  Documentation]
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/sprints[Sprint  Documentation]
+
+=== Diagrams
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/sprints[Sprint  Documentation]
 
 === RASA
-https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-installation[installation Linux / Mac]
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-installation[Installation Linux / Mac]
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-crash-course[Crash course]
 
-
-== Notes
-
-* Leonie 2D Frontend (wie kommen die Antworten zum Benutzer)
-* Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)
-* Leonie 2D Dashboard (wie kann ein administrator sich die Konversationen anschauen, filtern und bearbeiten) (wie funktioniert das trainierren eines Rasa models mithilfe der Dashboard)
-* Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)
-
-== Usecase diagrams
-[plantuml,admin-ucd.puml,png]
-----
-include::plantuml/admin-ucd.puml[]
-----
-
-[plantuml,school-ucd.puml,png]
-----
-include::plantuml/school-ucd.puml[]
-----
-
-[plantuml,user-ucd.puml,png]
-----
-include::plantuml/user-ucd.puml[]
-----
+=== Documentation Leonie
 
 
 
-
+// == Notes
+//
+// * Leonie 2D Frontend (wie kommen die Antworten zum Benutzer)
+// * Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)
+// * Leonie 2D Dashboard (wie kann ein administrator sich die Konversationen anschauen, filtern und bearbeiten) (wie funktioniert das trainierren eines Rasa models mithilfe der Dashboard)
+// * Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)
