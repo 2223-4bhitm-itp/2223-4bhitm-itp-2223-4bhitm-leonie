@@ -22,3 +22,43 @@ ifdef::backend-html5[]
 |15-11-22 |Prof. Stütz |explaining Rasa architecture and existing repo structure |
 |15-11-22 |Prof. Stütz |documenting how Rasa works & how to install and start it | icon:check[]
 |====
+
+
+=== 15-11-2022
+
+* Leonie 2D Frontend (wie kommen die Antworten zum Benutzer)
+* Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)
+* Leonie 2D Dashboard (wie kann ein administrator sich die Konversationen anschauen, filtern und bearbeiten) (wie funktioniert das trainierren eines Rasa models mithilfe der Dashboard)
+* Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)
+
+
+=== 22-11-2022
+
+* conversation-cycle
+* rules schlecht
+* sprachqualität verbessern -> aussortieren, neue antoworten hinzufügen
+* rolle der neuronalen netze??
+* mindestens 2 leute nur mit sprachqualität beschäftigen
+* rasa youtube videos - elemente erklären (entity, rule, intent,...)
+* fragenangebot/ leistungsangebot erläutern
+* leonie plakat, qr code (libre office)
+* leonie am handy!! (dann erst plakat)
+* Medientechnik: kreativ, filmen... aber auch programmieren wichtiger anteil
+* wenn er etwas nicht versteht - kluge sprüche
+* SPRACHQUALITÄT
+* soll gut funktionieren
+
+* 1. erhöhung der sq
+* 2. warten und beschreiben
+* 3. 3-klassler suchen und einschulen
+
+* user-story bis nächstes mal: Als Interessent/in möchte ich am Smartphone Informationen zu den verschiedenen Ausbildungsmöglichkeiten erhalten
+* Erkennen eines problemtischen Gespräches und verbessern der Antworten
+* Auflistung von sinnlosen Stories(Gesprächsverläufen)
+* Definition of done: Liste; 10 Fragen formulieren, die häufig kommen -> ohne dass wir Rules verwenden, sinnvolle Fragen;
+
+
+
+
+
+
