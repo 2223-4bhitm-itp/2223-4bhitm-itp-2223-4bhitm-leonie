@@ -54,7 +54,7 @@ Now everything is working and you can Chat with Leonie
 
 === Chatting
 
-Try some funn stuff:
+Try some fun stuff:
 [source,md]
 ----
 wo ist Prof. Stütz gerade

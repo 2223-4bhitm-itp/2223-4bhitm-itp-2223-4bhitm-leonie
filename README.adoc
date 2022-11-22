@@ -1,0 +1,44 @@
+= CHATBOT LEONIE
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+.4BHITM
+Peter Klose, Mona Angerer, Al Sabagh Abdulrahman, David Thaller
+
+== Usecase Diagrams
+[plantuml,admin-ucd.puml,png]
+----
+include::asciidocs/plantuml/admin-ucd.puml[]
+----
+
+[plantuml,school-ucd.puml,png]
+----
+include::asciidocs/plantuml/school-ucd.puml[]
+----
+
+[plantuml,user-ucd.puml,png]
+----
+include::asciidocs/plantuml/user-ucd.puml[]
+----
+
+== Sprints
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/sprints[Sprint  Documentation]
+
+
+== RASA
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-installation[Installation Linux / Mac]
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-crash-course[Crash course]
+
+== Documentation Leonie
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/leonie-startup[Start Leonie-HOLO]
+
+
