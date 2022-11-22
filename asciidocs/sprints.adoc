@@ -24,7 +24,7 @@ ifdef::backend-html5[]
 |====
 
 
-=== 15-11-2022
+== 15-11-2022
 
 * Leonie 2D Frontend (wie kommen die Antworten zum Benutzer)
 * Wie funktioniert das trainieren eines neuronales models mit rasa generell (so ca. was sind intents, entities, stories, responses)
@@ -32,7 +32,7 @@ ifdef::backend-html5[]
 * Leonie 2D Deployment (wie deployen wir die teile woraus die 2D Leonie besteht? frontend, backend, dashboard, action-server, rasa-endpoint, postgres db)
 
 
-=== 22-11-2022
+== 22-11-2022
 
 * conversation-cycle
 * rules schlecht
