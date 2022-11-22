@@ -666,7 +666,15 @@ pre.rouge {
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_the_files_in_a_rasa_project">1. The files in a rasa project</a></li>
+<li><a href="#_the_files_in_a_rasa_project">1. The files in a rasa project</a>
+<ul class="sectlevel2">
+<li><a href="#_nlu_yml">1.1. <code>nlu.yml</code></a></li>
+<li><a href="#_domain_yml_in_this_file_you_can_include_your_actions_responses_slots_intentions_and_entities">1.2. <code>domain.yml</code> In this file you can include your actions, responses, slots, intentions and entities</a></li>
+<li><a href="#_rules_yml_you_can_define_the_rules_and_forms_in_this_file">1.3. <code>rules.yml</code> You can define the rules and forms in this file</a></li>
+<li><a href="#_stories_yml_for_defining_stories">1.4. <code>stories.yml</code> for defining stories</a></li>
+<li><a href="#_config_yml_change_the_language_the_policies_of_the_responses_and_the_pipeline_this_file_is_used_to_customize_responses_of_your_bot">1.5. <code>config.yml</code> change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot</a></li>
+</ul>
+</li>
 <li><a href="#_the_main_components_of_rasa">2. The main components of rasa</a>
 <ul class="sectlevel2">
 <li><a href="#_responses">2.1. Responses</a></li>
@@ -684,23 +692,92 @@ pre.rouge {
 <div class="sect1">
 <h2 id="_the_files_in_a_rasa_project"><a class="anchor" href="#_the_files_in_a_rasa_project"></a>1. The files in a rasa project</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_nlu_yml"><a class="anchor" href="#_nlu_yml"></a>1.1. <code>nlu.yml</code></h3>
+<div class="paragraph">
+<p>This is the place where you can add your training data intents and entities</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="c1">#each yaml file needs a version specification</span>
+<span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3.1"</span>
+
+<span class="na">nlu</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">intent</span><span class="pi">:</span> <span class="s">htl-leonding-direction</span>
+  <span class="na">examples</span><span class="pi">:</span> <span class="pi">|</span>
+    <span class="s">- wie komme ich in die HTL Leonding?</span>
+    <span class="s">- mit welche Verbindungen fahren ich zur HTL Leonding?</span>
+    <span class="s">- kann man mit den Öffis zur HTL Leonding fahren?</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_domain_yml_in_this_file_you_can_include_your_actions_responses_slots_intentions_and_entities"><a class="anchor" href="#_domain_yml_in_this_file_you_can_include_your_actions_responses_slots_intentions_and_entities"></a>1.2. <code>domain.yml</code> In this file you can include your actions, responses, slots, intentions and entities</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">responses</span><span class="pi">:</span>
+  <span class="na">utter_direction</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">text</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Die</span><span class="nv"> </span><span class="s">HTL</span><span class="nv"> </span><span class="s">Leonding</span><span class="nv"> </span><span class="s">befindet</span><span class="nv"> </span><span class="s">sich</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">der</span><span class="nv"> </span><span class="s">Limesstraße</span><span class="nv"> </span><span class="s">12/14,</span><span class="nv"> </span><span class="s">4060</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Leonding.</span><span class="nv"> </span><span class="s">Mit</span><span class="nv"> </span><span class="s">den</span><span class="nv"> </span><span class="s">Öffis</span><span class="nv"> </span><span class="s">lässt</span><span class="nv"> </span><span class="s">sich</span><span class="nv"> </span><span class="s">die</span><span class="nv"> </span><span class="s">Schule</span><span class="nv"> </span><span class="s">sehr</span><span class="nv"> </span><span class="s">angenehm</span><span class="nv"> </span><span class="s">erreichen.</span><span class="nv"> </span><span class="s">Sie</span><span class="nv"> </span><span class="s">können</span><span class="nv"> </span><span class="s">mit</span><span class="nv"> </span><span class="s">der</span><span class="nv"> </span><span class="s">Straßenbahn</span><span class="nv"> </span><span class="s">Nummer</span><span class="nv"> </span><span class="s">3</span><span class="nv"> </span><span class="s">oder</span><span class="nv"> </span><span class="s">4</span><span class="nv"> </span><span class="s">zur</span><span class="nv"> </span><span class="s">Meixnerkreuzung</span><span class="nv"> </span><span class="s">fahren</span><span class="nv"> </span><span class="s">und</span><span class="nv"> </span><span class="s">10min</span><span class="nv"> </span><span class="s">zu</span><span class="nv"> </span><span class="s">Fuß</span><span class="nv"> </span><span class="s">gehen.</span><span class="nv"> </span><span class="s">Eine</span><span class="nv"> </span><span class="s">weitere</span><span class="nv"> </span><span class="s">Möglichkeit</span><span class="nv"> </span><span class="s">wäre</span><span class="nv"> </span><span class="s">es</span><span class="nv"> </span><span class="s">den</span><span class="nv"> </span><span class="s">19er</span><span class="nv"> </span><span class="s">Linienbus</span><span class="nv"> </span><span class="s">bis</span><span class="nv"> </span><span class="s">zur</span><span class="nv"> </span><span class="s">Limesstraße</span><span class="nv"> </span><span class="s">zu</span><span class="nv"> </span><span class="s">nutzen</span><span class="nv"> </span><span class="s">und</span><span class="nv"> </span><span class="s">weitere</span><span class="nv"> </span><span class="s">5min</span><span class="nv"> </span><span class="s">zu</span><span class="nv"> </span><span class="s">Fuß</span><span class="nv"> </span><span class="s">zu</span><span class="nv"> </span><span class="s">gehen."</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rules_yml_you_can_define_the_rules_and_forms_in_this_file"><a class="anchor" href="#_rules_yml_you_can_define_the_rules_and_forms_in_this_file"></a>1.3. <code>rules.yml</code> You can define the rules and forms in this file</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">rules</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">rule</span><span class="pi">:</span> <span class="s">explain the direction anytime the user asks about the direction</span>
+  <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">intent</span><span class="pi">:</span> <span class="s">htl-leonding-direction</span>
+    <span class="pi">-</span> <span class="na">action</span><span class="pi">:</span> <span class="s">utter_direction</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_stories_yml_for_defining_stories"><a class="anchor" href="#_stories_yml_for_defining_stories"></a>1.4. <code>stories.yml</code> for defining stories</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">stories</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">story</span><span class="pi">:</span> <span class="s">direction to htl leonding</span>
+  <span class="na">steps</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">intent</span><span class="pi">:</span> <span class="s">greet</span>
+    <span class="pi">-</span> <span class="na">action</span><span class="pi">:</span> <span class="s">utter_greet</span>
+    <span class="pi">-</span> <span class="na">intent</span><span class="pi">:</span> <span class="s">htl-leonding-direction</span>
+    <span class="pi">-</span> <span class="na">action</span><span class="pi">:</span> <span class="s">utter_direction</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_config_yml_change_the_language_the_policies_of_the_responses_and_the_pipeline_this_file_is_used_to_customize_responses_of_your_bot"><a class="anchor" href="#_config_yml_change_the_language_the_policies_of_the_responses_and_the_pipeline_this_file_is_used_to_customize_responses_of_your_bot"></a>1.5. <code>config.yml</code> change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">recipe</span><span class="pi">:</span> <span class="s">default.v1</span>
+
+<span class="na">language</span><span class="pi">:</span> <span class="s">en</span>
+
+<span class="na">pipeline</span><span class="pi">:</span>
+
+<span class="na">policies</span><span class="pi">:</span></code></pre>
+</div>
+</div>
+<details>
+<summary class="title">Pipeline explanation</summary>
+<div class="content">
+<div class="paragraph">
+<p>A pipeline in Rasa defines the dependency relationship and data flow direction between the different components, and it allows the developer to configure each of the components. The pipeline gives the Rasa framework great flexibility and extensibility.</p>
+</div>
+</div>
+</details>
+<details>
+<summary class="title">Policie explanation</summary>
+<div class="content">
+<div class="paragraph">
+<p>Policie is used to decide what action to take at each step in a conversation.</p>
+</div>
+</div>
+</details>
 <div class="olist arabic">
 <ol class="arabic">
-<li>
-<p><code>nlu.yml</code> This is the place where you can add your training data intents and entities</p>
-</li>
-<li>
-<p><code>domain.yml</code> In this file you can include your actions, responses, slots, intentions and entities</p>
-</li>
-<li>
-<p><code>rules.yml</code> You can define the rules and forms in this file</p>
-</li>
-<li>
-<p><code>stories.yml</code> for defining stories</p>
-</li>
-<li>
-<p><code>config.yml</code> change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot</p>
-</li>
 <li>
 <p><code>actions.yml</code> You can write the actions in this file using python</p>
 </li>
@@ -708,6 +785,7 @@ pre.rouge {
 <p><code><em>init</em>.py</code> If you want to execute a specific command when starting the chatbot</p>
 </li>
 </ol>
+</div>
 </div>
 </div>
 </div>
@@ -962,7 +1040,7 @@ I want to order <code>Pizza</code>,<code>Soup</code> and a <code>Sandwich</code>
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2022-11-22 09:21:20 UTC
+Last updated 2022-11-22 10:40:12 UTC
 </div>
 </div>
 </body>
