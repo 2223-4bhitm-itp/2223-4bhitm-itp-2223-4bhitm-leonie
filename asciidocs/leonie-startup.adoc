@@ -17,6 +17,8 @@ ifdef::backend-html5[]
 
 NOTE: Default Location: first floor, on the left side
 
+IMPORTANT: Pictures and detailed instructions will follow
+
 === Cables and periphery
 
 * Cables - usually - bottom or middle
