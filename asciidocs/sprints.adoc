@@ -1,4 +1,4 @@
-= Sprint-overview Leonie / 22-23 / 4bhitm / ITP
+= Sprint-documentation Leonie / 22-23 / 4bhitm / ITP
 Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
 1.0.0, {docdate}: Informationstechnische Projekte
 ifndef::imagesdir[:imagesdir: images]

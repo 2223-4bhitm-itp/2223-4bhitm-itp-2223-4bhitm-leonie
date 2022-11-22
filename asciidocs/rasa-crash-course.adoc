@@ -24,7 +24,7 @@ ifdef::backend-html5[]
 
 5. `config.yml` change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot
 
-6. `actions.yml` You will write the actions in this file using python
+6. `actions.yml` You can write the actions in this file using python
 
 7. `__init__.py` If you want to execute a specific command when starting the chatbot
 

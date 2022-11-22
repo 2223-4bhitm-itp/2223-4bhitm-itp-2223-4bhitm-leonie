@@ -59,3 +59,84 @@ Now our python points to the virtualenv.
 python -m rasa --help
 python -m rasa init
 ----
+
+
+== Install Rasa on Mac
+
+.At first to install Rasa on MacOS, a modern phython version must be installed:
+[source, shell]
+-----
+brew update
+brew install python
+-----
+
+.To check if the installation worked and everything is installed correctly, we run the following command:
+
+[source, shell]
+-----
+python3.7 --version
+-----
+
+.
+With Python ready, we can now configure a Rasa project.
+
+.First we install a tool that allows us to make a Rasa environment:
+
+[source, shell]
+-----
+python3.7 -m pip install virtualenv
+-----
+
+.Next we create a folder for our project and go into it
+
+[source, shell]
+-----
+mkdir rasa-init-demo
+cd rasa-init-demo
+-----
+
+.Next we create a new environment for Rasa. The following command creates a 'venv' folder with our virtual environment:
+
+[source, shell]
+-----
+python3.7 -m virtualenv venv
+-----
+
+.We can now activate the environment and install Rasa:
+
+[source, shell]
+-----
+source venv/bin/activate
+-----
+
+.Our 'python' now refers to the python version in the virtualenv.
+
+[source, shell]
+-----
+python -m pip install rasa
+-----
+
+Once Rasa is installed we can use it!
+
+.Run Rasa with help command:
+
+[source, shell]
+-----
+python -m rasa --help
+-----
+
+.Create a new Rasa project:
+
+[source, shell]
+-----
+python -m rasa init
+-----
+
+Once the project is created, we can start talking to the bot.
+
+.Run Rasa with interactive shell:
+
+[source, shell]
+-----
+python -m rasa shell
+-----
