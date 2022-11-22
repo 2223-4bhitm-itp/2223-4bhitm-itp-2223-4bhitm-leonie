@@ -15,19 +15,51 @@ ifdef::backend-html5[]
 Peter Klose, Mona Angerer, Al Sabagh Abdulrahman, David Thaller
 
 == Usecase Diagrams
+
 [plantuml,admin-ucd.puml,png]
 ----
-include::asciidocs/plantuml/admin-ucd.puml[]
+@startuml
+left to right direction
+actor "admin" as fc
+rectangle Leonie-chatbot-system {
+  usecase "viewing past conversations" as UC1
+  usecase "changing data of the RASA model" as UC2
+  usecase "training and providing RASA model" as UC3
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+@enduml
 ----
 
 [plantuml,school-ucd.puml,png]
 ----
-include::asciidocs/plantuml/school-ucd.puml[]
+@startuml
+left to right direction
+actor "user" as fc
+rectangle Leonie-chatbot {
+  usecase "asking questions about the school and receiving answers" as UC1
+
+}
+fc -- UC1
+
+@enduml
 ----
 
 [plantuml,user-ucd.puml,png]
 ----
-include::asciidocs/plantuml/user-ucd.puml[]
+@startuml
+left to right direction
+actor "school" as fc
+rectangle Leonie-chatbot {
+  usecase "answering potential questions from students and parents" as UC1
+  usecase "presenting Leonie" as UC2
+  usecase "illustrating everyday school life" as UC3
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+@enduml
 ----
 
 == Sprints
