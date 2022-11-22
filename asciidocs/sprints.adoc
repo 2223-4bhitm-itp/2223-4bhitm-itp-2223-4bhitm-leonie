@@ -13,14 +13,19 @@ ifdef::backend-html5[]
 
 // print the toc here (not at the default position)
 //toc::[]
-== Table
+== Overview
 
 [options="header"]
 |====
-|date|teacher|task|state
-|15-11-22 |Prof. Stütz |being able to start Leonie | icon:check[]
-|15-11-22 |Prof. Stütz |explaining Rasa architecture and existing repo structure |
-|15-11-22 |Prof. Stütz |documenting how Rasa works & how to install and start it | icon:check[]
+|date|deadline|teacher|task|state
+|15-11-22 |22-11-22 |Prof. Stütz |being able to start Leonie | icon:check[]
+|15-11-22 |22-11-22 |Prof. Stütz |explaining Rasa architecture and existing repo structure | icon:check[]
+|15-11-22 |22-11-22 |Prof. Stütz |documenting how Rasa works & how to install and start it | icon:check[]
+|22-11-22 |06-12-22 |Prof. Stütz |clean Layout for Smartphones |
+|22-11-22 |06-12-22 |Prof. Stütz |information about the various training areas |
+|22-11-22 |06-12-22 |Prof. Stütz |recognizing a problematic conversation and improving responses |
+|22-11-22 |06-12-22 |Prof. Stütz |listing of senseless stories (conversation histories) |
+|22-11-22 |06-12-22 |Prof. Stütz |listing often asked questions -> using no rules|
 |====
 
 
