@@ -14,15 +14,78 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 == The files in a rasa project
-1. `nlu.yml` This is the place where you can add your training data intents and entities
 
-2. `domain.yml` In this file you can include your actions, responses, slots, intentions and entities
+=== `nlu.yml`
+This is the place where you can add your training data intents and entities
 
-3. `rules.yml` You can define the rules and forms in this file
+[source,yaml]
+----
+#each yaml file needs a version specification
+version: "3.1"
 
-4. `stories.yml` for defining stories
+nlu:
+- intent: htl-leonding-direction
+  examples: |
+    - wie komme ich in die HTL Leonding?
+    - mit welche Verbindungen fahren ich zur HTL Leonding?
+    - kann man mit den Öffis zur HTL Leonding fahren?
 
-5. `config.yml` change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot
+----
+
+=== `domain.yml` In this file you can include your actions, responses, slots, intentions and entities
+[source,yaml]
+----
+responses:
+  utter_direction:
+  - text: "Die HTL Leonding befindet sich in der Limesstraße 12/14, 4060 in Leonding. Mit den Öffis lässt sich die Schule sehr angenehm erreichen. Sie können mit der Straßenbahn Nummer 3 oder 4 zur Meixnerkreuzung fahren und 10min zu Fuß gehen. Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nutzen und weitere 5min zu Fuß zu gehen."
+----
+
+=== `rules.yml` You can define the rules and forms in this file
+[source,yaml]
+----
+rules:
+- rule: explain the direction anytime the user asks about the direction
+  steps:
+    - intent: htl-leonding-direction
+    - action: utter_direction
+----
+
+=== `stories.yml` for defining stories
+[source,yaml]
+----
+stories:
+- story: direction to htl leonding
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: htl-leonding-direction
+    - action: utter_direction
+----
+
+=== `config.yml` change the language, the policies of the responses and the pipeline. This file is used to customize responses of your bot
+
+[source,yaml]
+----
+recipe: default.v1
+
+language: en
+
+pipeline:
+
+policies:
+----
+
+.Pipeline explanation
+[%collapsible]
+====
+A pipeline in Rasa defines the dependency relationship and data flow direction between the different components, and it allows the developer to configure each of the components. The pipeline gives the Rasa framework great flexibility and extensibility.
+====
+
+.Policie explanation
+[%collapsible]
+====
+Policie is used to decide what action to take at each step in a conversation.
+====
 
 6. `actions.yml` You can write the actions in this file using python
 
