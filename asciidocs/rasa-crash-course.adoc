@@ -18,7 +18,7 @@ ifdef::backend-html5[]
 
 2. `domain.yml` In this file you can include your actions, responses, slots, intentions and entities
 
-3. `rules.yml` You can define the roles and forms in this file
+3. `rules.yml` You can define the rules and forms in this file
 
 4. `stories.yml` for defining stories
 
