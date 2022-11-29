@@ -1,0 +1,45 @@
+= Trainieren von Leonie / 22-23 / 4bhitm / ITP
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Commands
+
+=== Before Starting
+
+Clone the https://github.com/htblaleonie/leonie-2d[Repo] correctly
+[source,bash]
+----
+git clone https://github.com/htblaleonie/leonie-2d.git --recurse-submodules
+----
+
+=== Startup
+[source,bash]
+----
+cd leonie-2d <.>
+
+kubectl config use-context docker-desktop
+skaffold dev
+cd rasa
+docker run -it -v $(pwd):/app rasa/rasa:3.2.9-full shell --endpoints endpoints.dev.yml
+----
+<.> Leonie-2D code from https://github.com/htblaleonie/leonie-2d[GitHub]
+
+
+
+== Files
+
+NOTE: Comming soon
+
+

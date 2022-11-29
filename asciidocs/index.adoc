@@ -24,7 +24,8 @@ ifdef::backend-html5[]
 
 === RASA
 * https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-installation[Installation Linux / Mac]
-* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-crash-course[Crash course]
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-crash-course[Overview]
+* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-training-local[Training]
 
 === Documentation Leonie
 * https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/leonie-startup[Start Leonie-HOLO]
