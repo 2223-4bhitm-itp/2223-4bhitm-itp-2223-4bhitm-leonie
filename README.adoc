@@ -11,7 +11,12 @@ ifndef::imagesdir[:imagesdir: images]
 //Need this blank line after ifdef, don't know why...
 ifdef::backend-html5[]
 
-.4BHITM
+.Overview
+Leonie is the Chatbot of HTL Leonding. She provides information about the school and answers frequently asked questions.
+
+
+
+.Team
 Peter Klose, Mona Angerer, Al Sabagh Abdulrahman, David Thaller
 
 == Usecase Diagrams
