@@ -60,7 +60,7 @@ ifdef::backend-html5[]
 * user-story bis nächstes mal: Als Interessent/in möchte ich am Smartphone Informationen zu den verschiedenen Ausbildungsmöglichkeiten erhalten
 * Erkennen eines problemtischen Gespräches und verbessern der Antworten
 * Auflistung von sinnlosen Stories(Gesprächsverläufen)
-* Definition of done: Liste; 10 Fragen formulieren, die häufig kommen -> ohne dass wir Rules verwenden, sinnvolle Fragen;
+* Definition of done: Liste; 10 Fragen formulieren, die häufig kommen -> ohne dass wir Rules verwenden, sinnvolle Antworten;
 
 
 
