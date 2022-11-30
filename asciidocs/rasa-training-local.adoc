@@ -59,8 +59,31 @@ NOTE: Comming soon
 ====
 
 ==== Abdulrahman AL Sabagh
-.type
+
+
+.Project Award:
 [%collapsible]
 ====
+
+
+intent_project_award:
+
+- Was ist project award?
+- Was versteht man unter project award?
+- Sage mir, was Project award ist ?
+- Erkläre mir, was Project award eigentlich ist?
+- Project award?
+- Weißt du was Project Award ist?
+- Was versteht man unter Project award?
+- Was heißt Project Award
+- Kannst du mir sagen, was  das Project Award sein soll ?
+- Kannst du mir erzählen, was  das Project Award sein soll ?
+- Kannst du mir sagen, was das Project Award ist?
+- Kannst du mir sagen, was man unter Project Award versteht ?
+- Kannst du mir sagen, was Project Award eigentlich heißt?
+- Kannst du mir erklären, was Project Award eigentlich ist?
+- Kannst du mir erklären, was  das Project Award sein soll ?
+- Kannst du mir erklären, was Project Award eigentlich heißt?
+- Kannst du mir erklären, was man unter Project Award  versteht ?
 
 ====
