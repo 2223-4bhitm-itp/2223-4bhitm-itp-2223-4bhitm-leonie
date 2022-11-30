@@ -45,9 +45,167 @@ NOTE: Comming soon
 === Questions / Answers
 
 ==== Mona Angerer
-.type
+.Medientechnik
 [%collapsible]
 ====
+
+Questions:
+
+* Was ist die Medientechnik
+* Erzähl mir was über die Medientechnik
+* Erzähl mir etwas über die Medientechnik
+* Sag mir was über die Medientechnik
+* Sag mir etwas über die Medientechnik
+* Medientechnik
+* Was lernt man in der Medientechnik
+
+* kreativer Zweig
+* Medientechnik Zweig
+* Worum geht es im Medientechnik-Zweig
+* Worum geht es in dem Medientechnik-Zweig
+* Was ist der Medientechnik-Zweig
+* Erzähl mir was über den Medientechnik-Zweig
+* Erzähl mir etwas für den Medientechnik-Zweig
+* Sag mir was über den Medientechnik-Zweig
+* Sag mir etwas über den Medientechnik-Zweig
+* Was lernt man im Medientechnik-Zweig
+* Was lernt man in dem Medientechnik-Zweig
+
+* Was ist die Medientechnik-Abteiung
+* Erzähl mir was über die Medientechnik-Abteilung
+* Sag mir was über die Medientechnik-Abteilung
+* Medientechnik-Abteilung
+* Worum geht es in der Medientechnik-Abteilung
+* Was lernt man in der Medientechnik-Abteilung
+
+
+Answer:
+
+In der Medientechnik-Abteilung liegt der Schwerpunkt auf Design und Kreativität.
+Es werden Fächer wie Audio, Fotografie, Video und Webdevelopment und -design unterrichtet, gleichzeitig werden
+auch, ähnlich zur Informatik, Themen wie Programmieren und Datanbanken behandelt. Der Fokus ist aber stets
+auf der kreativen Auslebung und Gestaltung.
+
+====
+
+.Informatik
+[%collapsible]
+====
+
+Questions:
+
+* Was ist die Informatik
+* Erzähl mir was über die Informatik
+* Erzähl mir etwas über die Informatik
+* Sag mir was über die Informatik
+* Sag mir etwas über die Informatik
+* Informatik
+* Worum geht es in der Informatik
+* Was lernt man in der Informatik
+
+* Informatik Zweig
+* Programmier Zweig
+* Was ist der Informatik-Zweig
+* Erzähl mir was über den Informatik-Zweig
+* Erzähl mir etwas über den Informatik-Zweig
+* Sag mir was über den Informatik-Zweig
+* Sag mir etwas über den Informatik-Zweig
+* Worum geht es im Informatik-Zweig
+* Worum geht es in dem Informatik-Zweig
+* Was lernt man im Informatik-Zweig
+* Was lernt man in dem Informatik-Zweig
+
+* Was ist die Informatik-Abteiung
+* Erzähl mir was über die Informatik-Abteilung
+* Erzähl mir etwas über die Informatik-Abteilung
+* Sag mir was über die Informatik-Abteilung
+* Sag mir etwas über die Informatik-Abteilung
+* Informatik-Abteilung
+* Worum geht es in der Informatik-Abteilung
+* Was lernt man in der Informatik-Abteilung
+
+Answer:
+
+
+
+====
+
+
+.Medizintechnik
+[%collapsible]
+====
+
+Questions:
+
+* Was ist die Medizintechnik
+* Erzähl mir was über die Medizintechnik
+* Erzähl mir etwas über die Medizintechnik
+* Sag mir was über die Medizintechnik
+* Sag mir etwas über die Medizintechnik
+* Medizintechnik
+* Was lernt man in der Medizintechnik
+
+* Medizin Zweig
+* Medizintechnik Zweig
+* Worum geht es im Medizintechnik-Zweig
+* Worum geht es in dem Medizintechnik-Zweig
+* Was ist der Medizintechnik-Zweig
+* Erzähl mir was über den Medizintechnik-Zweig
+* Erzähl mir etwas für den Medizintechnik-Zweig
+* Sag mir was über den Medizintechnik-Zweig
+* Sag mir etwas über den Medizintechnik-Zweig
+* Was lernt man im Medizintechnik-Zweig
+* Was lernt man in dem Medizintechnik-Zweig
+
+* Was ist die Medizintechnik-Abteiung
+* Erzähl mir was über die Medizintechnik-Abteilung
+* Sag mir was über die Medizintechnik-Abteilung
+* Medizintechnik-Abteilung
+* Worum geht es in der Medizintechnik-Abteilung
+* Was lernt man in der Medizintechnik-Abteilung
+
+Answer:
+
+
+
+====
+
+
+.Elektrotechnik
+[%collapsible]
+====
+
+Questions:
+
+* Was ist die Elektrotechnik
+* Erzähl mir was über die Elektrotechnik
+* Erzähl mir etwas über die Elektrotechnik
+* Sag mir was über die Elektrotechnik
+* Sag mir etwas über die Elektrotechnik
+* Elektrotechnik
+* Was lernt man in der Elektrotechnik
+
+* Elektrotechnik Zweig
+* Worum geht es im Elektrotechnik-Zweig
+* Worum geht es in dem Elektrotechnik-Zweig
+* Was ist der Elektrotechnik-Zweig
+* Erzähl mir was über den Elektrotechnik-Zweig
+* Erzähl mir etwas für den Elektrotechnik-Zweig
+* Sag mir was über den Elektrotechnik-Zweig
+* Sag mir etwas über den Elektrotechnik-Zweig
+* Was lernt man im Elektrotechnik-Zweig
+* Was lernt man in dem Elektrotechnik-Zweig
+
+* Was ist die Elektrotechnik-Abteiung
+* Erzähl mir was über die Elektrotechnik-Abteilung
+* Sag mir was über die Elektrotechnik-Abteilung
+* Elektrotechnik-Abteilung
+* Worum geht es in der Elektrotechnik-Abteilung
+* Was lernt man in der Elektrotechnik-Abteilung
+
+Answer:
+
+
 
 ====
 
