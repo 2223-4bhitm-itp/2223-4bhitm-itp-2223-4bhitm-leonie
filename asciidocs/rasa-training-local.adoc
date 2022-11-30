@@ -85,5 +85,3 @@ intent_project_award:
 - Kannst du mir erklären, was  das Project Award sein soll ?
 - Kannst du mir erklären, was Project Award eigentlich heißt?
 - Kannst du mir erklären, was man unter Project Award  versteht ?
-
-====
