@@ -114,8 +114,25 @@ Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nu
 [%collapsible]
 ====
 .Questions:
+* erzähl mir einen Witz.
+* erzähl mir einen Joke.
+* erzähl mir einen Scherz.
+* erzähl mir ein Gag.
+* Witz
+* Joke
+* Scherz
+* Gag
+* mach einen Witz
+* erzähl ein Joke
+* erzähl ein Schärz
+* bring mich zum Lachen
+* bring mich zum Lächeln
+* Hast du einen Witz?
+* unterhalte mich
+* amüsiere mich
 
 .Answer
+
 ====
 
 ==== Abdulrahman AL Sabagh
