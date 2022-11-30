@@ -210,15 +210,96 @@ Answer:
 ====
 
 ==== David Thaller
-.type
+.Schulweg
 [%collapsible]
 ====
+.Questions:
 
+* Wie komme ich in die HTL Leonding?
+* Wie fahre ich in die HTL Leonding?
+* Wie erreiche ich in die HTL Leonding?
+* Wo finde ich in die HTL Leonding?
+* Fahren Öffis zur HTL Leonding?
+* Welche Öffis fahren zur HTL Leonding
+* Kann man mit den Öffis zur HTL Leonding fahren?
+* Mit welche Verkehrsmittel gelange ich zur HTL Leonding?
+* Welche Verkehrsmittel fahren zur HTL Leonding?
+* Welche öffetnlichen Verkehrsmittel fahren zur HTL Leonding?
+* Beschreib mir den Weg zur HTL Leonding?
+* Fährt ein Bus zur HTL Leonding?
+* Fährt eine Straßenbahn zur HTL Leonding?
+* Fährt eine Bim zur HTL Leonding?
+* Fährt ein Zug zur HTL Leonding?
+* Was ist der schnellste Weg zur HTL Leonding?
+* Wo ist die HTL Leonding?
+* Wo befindet sich die HTL Leonding?
+* Wo steht die HTL Leonding?
+* Wo ist die HTL?
+* Ist die HTL Leonding schwer zu erreichen?
+* Ist die HTL Leonding schwer zu finden?
+* Ist die HTL Leonding einfach zu erreichen?
+* Ist die HTL Leonding einfach zu finden?
+* Wo finde ich die HTL Leonding?
+* Weg zur HTL Leonding?
+* Gib mir den Weg zur HTL Leonding an
+* Sag mir den Weg zur HTL Leonding
+* Beschreibe mir den Weg zur HTL Leonding
+
+* Öffis
+* Weg
+* HTL Leonding erreichen
+* HTL Leonding finden
+* HTL Leonding Weg
+* HTL Leonding fahren
+* Weg HTL Leonding
+* Öffis HTL Leonding
+* Bus
+* Straßenbahn
+* Bim
+* Zug
+* Verkehrsmittel
+* öffentliche Verkehrsmittel
+* fahren
+
+.Answer:
+Die HTL Leonding befindet sich in der Limesstraße 12/14, 4060 in Leonding.
+Mit den Öffis lässt sich die Schule sehr angenehm erreichen.
+Du kannst mit der Straßenbahn Nummer 3 oder 4 zur Meixnerkreuzung fahren und 10min zu Fuß gehen.
+Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nutzen und weitere 5min zu Fuß zu gehen.
+====
+
+.Witze
+[%collapsible]
+====
+.Questions:
+
+.Answer
 ====
 
 ==== Abdulrahman AL Sabagh
-.type
+
+
+.Project Award:
 [%collapsible]
 ====
 
-====
+
+intent_project_award:
+
+- Was ist project award?
+- Was versteht man unter project award?
+- Sage mir, was Project award ist ?
+- Erkläre mir, was Project award eigentlich ist?
+- Project award?
+- Weißt du was Project Award ist?
+- Was versteht man unter Project award?
+- Was heißt Project Award
+- Kannst du mir sagen, was  das Project Award sein soll ?
+- Kannst du mir erzählen, was  das Project Award sein soll ?
+- Kannst du mir sagen, was das Project Award ist?
+- Kannst du mir sagen, was man unter Project Award versteht ?
+- Kannst du mir sagen, was Project Award eigentlich heißt?
+- Kannst du mir erklären, was Project Award eigentlich ist?
+- Kannst du mir erklären, was  das Project Award sein soll ?
+- Kannst du mir erklären, was Project Award eigentlich heißt?
+- Kannst du mir erklären, was man unter Project Award  versteht ?
