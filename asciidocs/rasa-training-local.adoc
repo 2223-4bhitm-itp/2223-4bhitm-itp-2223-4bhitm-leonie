@@ -399,3 +399,26 @@ Weitere Informationen finden Sie unter : https://www.htl-leonding.at/kontakt/
 - Hier finden Sie alle Anmeldeformulare:
 https://www.htl-leonding.at/bewerber/anmeldung/
 ====
+
+
+==== Peter Klose
+
+.Aussehen HTL
+[%collapsible]
+====
+
+.Questions:
+
+- Wie sieht die HTL aus?
+- Zeig mir die HTL?
+- Kannst du mir die HTL Leonding zeigen?
+- Zeig mir ein Foto der HTL?
+- Ich würde die HTL gerne sehen?
+- Wie sieht die HTL denn so aus?
+- Bild der HTL
+
+.Answer:
+https://www.htl-leonding.at/wp-content/uploads/2019/11/banner_full_ueberuns.jpg?x49412
+So sieht unsere Schule aus
+
+====
