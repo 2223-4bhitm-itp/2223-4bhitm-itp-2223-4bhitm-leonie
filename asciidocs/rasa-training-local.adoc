@@ -20,13 +20,11 @@ ifdef::backend-html5[]
 
 Clone the https://github.com/htblaleonie/leonie-2d[Repo] correctly
 [source,bash]
-
 ----
 git clone https://github.com/htblaleonie/leonie-2d.git --recurse-submodules
 ----
 
 === Startup
-
 [source,bash]
 ----
 cd leonie-2d <.>
@@ -36,8 +34,9 @@ skaffold dev
 cd rasa
 docker run -it -v $(pwd):/app rasa/rasa:3.2.9-full shell --endpoints endpoints.dev.yml
 ----
-
 <.> Leonie-2D code from https://github.com/htblaleonie/leonie-2d[GitHub]
+
+
 
 == Files
 
@@ -51,7 +50,7 @@ NOTE: Comming soon
 [%collapsible]
 ====
 
-Questions:
+.Questions:
 
 * Was ist die Medientechnik
 * Erzähl mir was über die Medientechnik
@@ -81,7 +80,7 @@ Questions:
 * Was lernt man in der Medientechnik-Abteilung
 
 
-Answer:
+.Answer:
 
 In der Medientechnik-Abteilung liegt der Schwerpunkt auf Design und Kreativität.
 Es werden Fächer wie Audio, Fotografie, Video und Webdevelopment und -design unterrichtet, gleichzeitig werden auch, ähnlich zur Informatik, Themen wie Programmieren und Datanbanken behandelt.
@@ -93,7 +92,7 @@ Der Fokus ist aber stets auf der kreativen Auslebung und Gestaltung.
 [%collapsible]
 ====
 
-Questions:
+.Questions:
 
 * Was ist die Informatik
 * Erzähl mir was über die Informatik
@@ -127,15 +126,13 @@ Questions:
 
 Answer:
 
-
-
 ====
 
 .Medizintechnik
 [%collapsible]
 ====
 
-Questions:
+.Questions:
 
 * Was ist die Medizintechnik
 * Erzähl mir was über die Medizintechnik
@@ -166,15 +163,13 @@ Questions:
 
 Answer:
 
-
-
 ====
 
 .Elektrotechnik
 [%collapsible]
 ====
 
-Questions:
+.Questions:
 
 * Was ist die Elektrotechnik
 * Erzähl mir was über die Elektrotechnik
@@ -202,7 +197,7 @@ Questions:
 * Worum geht es in der Elektrotechnik-Abteilung
 * Was lernt man in der Elektrotechnik-Abteilung
 
-Answer:
+.Answer:
 
 ====
 
@@ -211,7 +206,9 @@ Answer:
 .Schulweg
 [%collapsible]
 ====
+
 .Questions:
+
 * Wie komme ich in die HTL Leonding?
 * Wie fahre ich in die HTL Leonding?
 * Wie erreiche ich in die HTL Leonding?
@@ -268,7 +265,9 @@ Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nu
 .Witze
 [%collapsible]
 ====
+
 .Questions:
+
 * erzähl mir einen Witz.
 * erzähl mir einen Joke.
 * erzähl mir einen Scherz.
@@ -285,28 +284,20 @@ Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nu
 * Hast du einen Witz?
 * unterhalte mich
 * amüsiere mich
+* kannst du mir einen witz erzählen?
 
 .Answer
+
 * Was sagt ein Informatiker, wenn er auf die Welt kommt?
 "Hello World!"
-
-* Treffen sich zwei.
-Einer kommt nicht.
-
+* Treffen sich zwei. Einer kommt nicht.
 * Sagt der eine zum anderen: "Hast du schon etwas von der neuen Rechtschreibung gehört?" Sagt der andere: "Nein, ich bin Linkshänder!"
-
 * Treffen sich zwei Magnete, sagt der eine: „Was soll ich heute bloß anziehen?“
-
 * Unterhalten sich 2 Kerzen: „Ist Wasser gefährlich?“ – „Davon kannst du ausgehen!“
-
 * Egal, wie gut du schläfst: Albert schläft wie Einstein.
-
 * „Was machen Mathematiker im Garten?“ – Wurzeln ziehen
-
 * „Was trinken Führungskräfte?“ – Leitungswasser
-
 * „Welche Tiere können nichts hören?“ – Die Tauben
-
 * Treffen sich 2 Piloten. 600 Tote
 
 ====
@@ -317,8 +308,7 @@ Einer kommt nicht.
 [%collapsible]
 ====
 
-
-intent_project_award:
+.intent_project_award:
 
 - Was ist project award?
 - Was versteht man unter project award?
@@ -338,7 +328,6 @@ intent_project_award:
 - Kannst du mir erklären, was Project Award eigentlich heißt?
 - Kannst du mir erklären, was man unter Project Award versteht ?
 
-
 .Answer:
 - Die Schüler*innen der Abschlussklassen werden eingeladen, ihre SYP/ITP-Projekte und Diplomarbeiten zur Prämierung einzureichen.
 Der Sieger der Kategorie „Best of Project“ erhält einen Geldpreis in der Höhe von € 600,-.
@@ -351,7 +340,7 @@ Weitere Infos : https://www.htl-leonding.at/schueler/projekte-events/project-awa
 .Kontaktdaten:
 [%collapsible]
 ====
-intent_kontaktdaten:
+.intent_kontaktdaten:
 
 - Homepage
 - Telefonnummer
@@ -371,8 +360,6 @@ intent_kontaktdaten:
 - Gib mir die Telefonnummer von der HTL
 - Kannst du mir die Telefonnummer von der HTL geben
 - Kannst du mir das E-Mail von der HTL geben
-
-
 
 .Answer
 
@@ -408,7 +395,6 @@ Weitere Informationen finden Sie unter : https://www.htl-leonding.at/kontakt/
 - wichtige Formulare für die Anmeldung in der HTL
 
 .Antwort:
-
 
 - Hier finden Sie alle Anmeldeformulare:
 https://www.htl-leonding.at/bewerber/anmeldung/
