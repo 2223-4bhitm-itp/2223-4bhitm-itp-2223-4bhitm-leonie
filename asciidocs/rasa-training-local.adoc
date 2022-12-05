@@ -214,6 +214,11 @@ Questions:
 
 Answer:
 
+Diese Abteilung vereint Hardware und Software in nahezu
+unendlich vielen Anwendungen. Bis zur Matura sind Schüler und Schülerinnen
+in der Lage, umfangreichere elektronische Schaltungen und Systeme aufzubauen und zu programmieren.
+Fächer wie Hardwareentwicklung, Prototypenbau und Projektmanagement sind hier an der Tagesordnung.
+
 ====
 
 ==== David Thaller
