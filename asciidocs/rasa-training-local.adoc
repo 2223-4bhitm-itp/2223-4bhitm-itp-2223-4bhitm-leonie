@@ -348,4 +348,37 @@ Weitere Infos : https://www.htl-leonding.at/schueler/projekte-events/project-awa
 ====
 
 
+.Kontaktdaten:
+[%collapsible]
+====
+intent_kontaktdaten:
+
+- Homepage
+- Telefonnummer
+- Email
+- Kontaktdaten?
+- Kann man die HTL telefonisch erreichen?
+- Kann man die HTL per Mail erreichen
+- Telefonnummer von der HTL
+- E-mail Adresse von der HTL
+- Kontaktdaten der HTL
+- Homepage von der HTL
+- Welche Kontaktdaten hat die HTL?
+- Wo findet man die Kontaktdaten von der HTL
+- Gib mir die Kontaktdaten der HTL
+- Telefonnummer von der HTL
+- E-mail von der HTL
+- Gib mir die Telefonnummer von der HTL
+- Kannst du mir die Telefonnummer von der HTL geben
+- Kannst du mir das E-Mail von der HTL geben
+
+
+
+.Answer
+
+- Telefonnummer: (0732) 67 33 68 – 0
+E-Mail: office@htl-leonding.ac.at
+homepage: https://www.htl-leonding.at/
+Weitere Informationen finden Sie unter : https://www.htl-leonding.at/kontakt/
+====
 
