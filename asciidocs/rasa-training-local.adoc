@@ -20,11 +20,13 @@ ifdef::backend-html5[]
 
 Clone the https://github.com/htblaleonie/leonie-2d[Repo] correctly
 [source,bash]
+
 ----
 git clone https://github.com/htblaleonie/leonie-2d.git --recurse-submodules
 ----
 
 === Startup
+
 [source,bash]
 ----
 cd leonie-2d <.>
@@ -34,9 +36,8 @@ skaffold dev
 cd rasa
 docker run -it -v $(pwd):/app rasa/rasa:3.2.9-full shell --endpoints endpoints.dev.yml
 ----
+
 <.> Leonie-2D code from https://github.com/htblaleonie/leonie-2d[GitHub]
-
-
 
 == Files
 
@@ -124,7 +125,13 @@ Der Fokus ist aber stets auf der kreativen Auslebung und Gestaltung.
 * Worum geht es in der Informatik-Abteilung
 * Was lernt man in der Informatik-Abteilung
 
-Answer:
+.Answer:
+
+Die Fachrichtung der Informatik vereint eine EDV-technische und betriebswirtschaftliche Ausbildung.
+Es werden Fächer wie Datenbanken, Software-Engineering oder Computerarchitekturen unterrichtet,´.
+Diese Kombination bietet eine umfangreiche, praxisnahe Ausbildung,
+die später im Beruf direkt eingesetzt werden kann.
+
 
 ====
 
@@ -161,7 +168,13 @@ Answer:
 * Worum geht es in der Medizintechnik-Abteilung
 * Was lernt man in der Medizintechnik-Abteilung
 
-Answer:
+.Answer:
+
+In der Medizintechnik ist Elektronik eines der wichtigsten Elemente
+und wird daher in der Ausbildung entsprechend behandelt.
+Zugleich erfolgt natürlich eine Einführung in medizinische Themenbereiche wie
+Anatomie und Physiologie sowie Biosignalverarbeitung und Medizin- und Gesundheitsinformatik.
+
 
 ====
 
