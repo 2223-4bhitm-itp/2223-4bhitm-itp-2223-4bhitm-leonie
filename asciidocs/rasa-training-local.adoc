@@ -382,3 +382,34 @@ homepage: https://www.htl-leonding.at/
 Weitere Informationen finden Sie unter : https://www.htl-leonding.at/kontakt/
 ====
 
+.Formulare :
+[%collapsible]
+====
+- Zeige mir die Anmeldeformulare ?
+- Wo finde ich die Anmeldeformulare?
+- Formulare
+- Anmeldeformulare
+- Welche Formulare muss ich ausfüllen, damit ich mich in der HTL anmelden kann?
+- Welche Anmeldeformulare gibt es?
+- Welche Formulare braucht man beim Anmelden in der HTL?
+- Welche Formulare sind fürs Anmelden relevant?
+- Welche Formulae muss ich ausfüllen, damit ich mich in der HTL anmelde?
+- Ich brauch die Formulare fürs Anmelden
+- Was muss ich ausfüllen, damit ich mich in der HTL anmelden kann
+- Welche Anmeldeformulare gibt es
+- Gib mir alle Anmeldeformulare
+- Formulare fürs Anmelden?
+- Welche Zetteln muss ich ausfüllen, wenn ich mich anmelden will
+- Welche Formulare muss ich ausfüllen, wenn ich mich anmelden will.
+- Was muss ich ausfüllen, wenn ich mich anmelden will.
+- Welche Zetteln muss ich ausfüllen, wenn ich mich anmelden will.
+- Welche Formulare muss ich ausfüllen, wenn ich mich anmelden will
+- Welche Anmeldeformulare gibt es
+- wichtige Formulare für die Anmeldung in der HTL
+
+.Antwort:
+
+
+- Hier finden Sie alle Anmeldeformulare:
+https://www.htl-leonding.at/bewerber/anmeldung/
+====
