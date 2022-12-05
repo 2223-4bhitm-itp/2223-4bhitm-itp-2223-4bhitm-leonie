@@ -82,7 +82,7 @@ Questions:
 Answer:
 
 In der Medientechnik-Abteilung liegt der Schwerpunkt auf Design und Kreativität.
-Es werden Fächer wie Audio, Fotografie, Video und Webdevelopment und -design unterrichtet, gleichzeitig werden
+Es werden Fächer wie Audio, Fotografie, Video und Webdevelopment und -design unterrichtet. Gleichzeitig werden
 auch, ähnlich zur Informatik, Themen wie Programmieren und Datanbanken behandelt. Der Fokus ist aber stets
 auf der kreativen Auslebung und Gestaltung.
 
@@ -125,7 +125,10 @@ Questions:
 * Was lernt man in der Informatik-Abteilung
 
 Answer:
-
+Die Fachrichtung der Informatik vereint eine EDV-technische und betriebswirtschaftliche Ausbildung.
+Es werden Fächer wie Datenbanken, Software-Engineering oder Computerarchitekturen unterrichtet,´.
+Diese Kombination bietet eine umfangreiche, praxisnahe Ausbildung,
+die später im Beruf direkt eingesetzt werden kann.
 
 
 ====
