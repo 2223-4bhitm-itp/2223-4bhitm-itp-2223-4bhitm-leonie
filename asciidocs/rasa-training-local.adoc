@@ -128,7 +128,7 @@ Der Fokus ist aber stets auf der kreativen Auslebung und Gestaltung.
 .Answer:
 
 Die Fachrichtung der Informatik vereint eine EDV-technische und betriebswirtschaftliche Ausbildung.
-Es werden Fächer wie Datenbanken, Software-Engineering oder Computerarchitekturen unterrichtet,´.
+Es werden Fächer wie Datenbanken, Software-Engineering oder Computerarchitekturen unterrichtet.
 Diese Kombination bietet eine umfangreiche, praxisnahe Ausbildung,
 die später im Beruf direkt eingesetzt werden kann.
 

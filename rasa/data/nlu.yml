@@ -1,0 +1,276 @@
+version: "3.1"
+nlu:
+  - intent: branch_medt
+    examples: |
+      - Was ist die Medientechnik
+      - Erzähl mir was über die Medientechnik
+      - Erzähl mir etwas über die Medientechnik
+      - Sag mir was über die Medientechnik
+      - Sag mir etwas über die Medientechnik
+      - Medientechnik
+      - Was lernt man in der Medientechnik
+      - kreativer Zweig
+      - Medientechnik Zweig
+      - Worum geht es im Medientechnik-Zweig
+      - Worum geht es in dem Medientechnik-Zweig
+      - Was ist der Medientechnik-Zweig
+      - Erzähl mir was über den Medientechnik-Zweig
+      - Erzähl mir etwas für den Medientechnik-Zweig
+      - Sag mir was über den Medientechnik-Zweig
+      - Sag mir etwas über den Medientechnik-Zweig
+      - Was lernt man im Medientechnik-Zweig
+      - Was lernt man in dem Medientechnik-Zweig
+      - Was ist die Medientechnik-Abteiung
+      - Erzähl mir was über die Medientechnik-Abteilung
+      - Sag mir was über die Medientechnik-Abteilung
+      - Medientechnik-Abteilung
+      - Worum geht es in der Medientechnik-Abteilung
+      - Was lernt man in der Medientechnik-Abteilung
+  - intent: branch_informatik
+    examples: |
+      - Was ist die Informatik
+      - Erzähl mir was über die Informatik
+      - Erzähl mir etwas über die Informatik
+      - Sag mir was über die Informatik
+      - Sag mir etwas über die Informatik
+      - Informatik
+      - Worum geht es in der Informatik
+      - Was lernt man in der Informatik
+      - Informatik Zweig
+      - Programmier Zweig
+      - Was ist der Informatik-Zweig
+      - Erzähl mir was über den Informatik-Zweig
+      - Erzähl mir etwas über den Informatik-Zweig
+      - Sag mir was über den Informatik-Zweig
+      - Sag mir etwas über den Informatik-Zweig
+      - Worum geht es im Informatik-Zweig
+      - Worum geht es in dem Informatik-Zweig
+      - Was lernt man im Informatik-Zweig
+      - Was lernt man in dem Informatik-Zweig
+      - Was ist die Informatik-Abteiung
+      - Erzähl mir was über die Informatik-Abteilung
+      - Erzähl mir etwas über die Informatik-Abteilung
+      - Sag mir was über die Informatik-Abteilung
+      - Sag mir etwas über die Informatik-Abteilung
+      - Informatik-Abteilung
+      - Worum geht es in der Informatik-Abteilung
+      - Was lernt man in der Informatik-Abteilung
+  - intent: branch_medizintechnik
+    examples: |
+      - Was ist die Medizintechnik
+      - Erzähl mir was über die Medizintechnik
+      - Erzähl mir etwas über die Medizintechnik
+      - Sag mir was über die Medizintechnik
+      - Sag mir etwas über die Medizintechnik
+      - Medizintechnik
+      - Was lernt man in der Medizintechnik
+      - Medizin Zweig
+      - Medizintechnik Zweig
+      - Worum geht es im Medizintechnik-Zweig
+      - Worum geht es in dem Medizintechnik-Zweig
+      - Was ist der Medizintechnik-Zweig
+      - Erzähl mir was über den Medizintechnik-Zweig
+      - Erzähl mir etwas für den Medizintechnik-Zweig
+      - Sag mir was über den Medizintechnik-Zweig
+      - Sag mir etwas über den Medizintechnik-Zweig
+      - Was lernt man im Medizintechnik-Zweig
+      - Was lernt man in dem Medizintechnik-Zweig
+      - Was ist die Medizintechnik-Abteiung
+      - Erzähl mir was über die Medizintechnik-Abteilung
+      - Sag mir was über die Medizintechnik-Abteilung
+      - Medizintechnik-Abteilung
+      - Worum geht es in der Medizintechnik-Abteilung
+      - Was lernt man in der Medizintechnik-Abteilung
+  - intent: branch_elektronik
+    examples: |
+      - Was ist die Elektrotechnik
+      - Erzähl mir was über die Elektrotechnik
+      - Erzähl mir etwas über die Elektrotechnik
+      - Sag mir was über die Elektrotechnik
+      - Sag mir etwas über die Elektrotechnik
+      - Elektrotechnik
+      - Was lernt man in der Elektrotechnik
+      - Elektrotechnik Zweig
+      - Worum geht es im Elektrotechnik-Zweig
+      - Worum geht es in dem Elektrotechnik-Zweig
+      - Was ist der Elektrotechnik-Zweig
+      - Erzähl mir was über den Elektrotechnik-Zweig
+      - Erzähl mir etwas für den Elektrotechnik-Zweig
+      - Sag mir was über den Elektrotechnik-Zweig
+      - Sag mir etwas über den Elektrotechnik-Zweig
+      - Was lernt man im Elektrotechnik-Zweig
+      - Was lernt man in dem Elektrotechnik-Zweig
+      - Was ist die Elektrotechnik-Abteiung
+      - Erzähl mir was über die Elektrotechnik-Abteilung
+      - Sag mir was über die Elektrotechnik-Abteilung
+      - Elektrotechnik-Abteilung
+      - Worum geht es in der Elektrotechnik-Abteilung
+      - Was lernt man in der Elektrotechnik-Abteilung
+  - intent: way_to_school 
+    examples: |
+      - Wie komme ich in die HTL Leonding?
+      - Wie fahre ich in die HTL Leonding?
+      - Wie erreiche ich in die HTL Leonding?
+      - Wo finde ich in die HTL Leonding?
+      - Fahren Öffis zur HTL Leonding?
+      - Welche Öffis fahren zur HTL Leonding
+      - Kann man mit den Öffis zur HTL Leonding fahren?
+      - Mit welche Verkehrsmittel gelange ich zur HTL Leonding?
+      - Welche Verkehrsmittel fahren zur HTL Leonding?
+      - Welche öffetnlichen Verkehrsmittel fahren zur HTL Leonding?
+      - Beschreib mir den Weg zur HTL Leonding?
+      - Fährt ein Bus zur HTL Leonding?
+      - Fährt eine Straßenbahn zur HTL Leonding?
+      - Fährt eine Bim zur HTL Leonding?
+      - Fährt ein Zug zur HTL Leonding?
+      - Was ist der schnellste Weg zur HTL Leonding?
+      - Wo ist die HTL Leonding?
+      - Wo befindet sich die HTL Leonding?
+      - Wo steht die HTL Leonding?
+      - Wo ist die HTL?
+      - Ist die HTL Leonding schwer zu erreichen?
+      - Ist die HTL Leonding schwer zu finden?
+      - Ist die HTL Leonding einfach zu erreichen?
+      - Ist die HTL Leonding einfach zu finden?
+      - Wo finde ich die HTL Leonding?
+      - Weg zur HTL Leonding?
+      - Gib mir den Weg zur HTL Leonding an
+      - Sag mir den Weg zur HTL Leonding
+      - Beschreibe mir den Weg zur HTL Leonding
+      - HTL Leonding erreichen
+      - HTL Leonding finden
+      - HTL Leonding Weg
+      - HTL Leonding fahren
+      - Weg HTL Leonding
+      - Öffis HTL Leonding
+  - intent: tell_joke
+    examples: |
+      - erzähl mir einen Witz.
+      - erzähl mir einen Joke.
+      - erzähl mir einen Scherz.
+      - erzähl mir ein Gag.
+      - Witz
+      - Joke
+      - Scherz
+      - Gag
+      - mach einen Witz
+      - erzähl ein Joke
+      - erzähl ein Schärz
+      - bring mich zum Lachen
+      - bring mich zum Lächeln
+      - Hast du einen Witz?
+      - unterhalte mich
+      - amüsiere mich
+      - einen Witz erzählen
+      - Kannst du einen Witz erzählen?
+      - Kannst du mir einen Witz erzählen?
+  - intent: project_award
+    examples: |
+      - Was ist project award?
+      - Was versteht man unter project award?
+      - Sage mir, was Project award ist ?
+      - Erkläre mir, was Project award eigentlich ist?
+      - Project award?
+      - Weißt du was Project Award ist?
+      - Was versteht man unter Project award?
+      - Was heißt Project Award
+      - Kannst du mir sagen, was das Project Award sein soll ?
+      - Kannst du mir erzählen, was das Project Award sein soll ?
+      - Kannst du mir sagen, was das Project Award ist?
+      - Kannst du mir sagen, was man unter Project Award versteht ?
+      - Kannst du mir sagen, was Project Award eigentlich heißt?
+      - Kannst du mir erklären, was Project Award eigentlich ist?
+      - Kannst du mir erklären, was das Project Award sein soll ?
+      - Kannst du mir erklären, was Project Award eigentlich heißt?
+      - Kannst du mir erklären, was man unter Project Award versteht ?
+  - intent: contact_data
+    examples: |
+      - Homepage
+      - Telefonnummer
+      - Email
+      - Kontaktdaten?
+      - Kann man die HTL telefonisch erreichen?
+      - Kann man die HTL per Mail erreichen
+      - Telefonnummer von der HTL
+      - E-mail Adresse von der HTL
+      - Kontaktdaten der HTL
+      - Homepage von der HTL
+      - Welche Kontaktdaten hat die HTL?
+      - Wo findet man die Kontaktdaten von der HTL
+      - Gib mir die Kontaktdaten der HTL
+      - Telefonnummer von der HTL
+      - E-mail von der HTL
+      - Gib mir die Telefonnummer von der HTL
+      - Kannst du mir die Telefonnummer von der HTL geben
+      - Kannst du mir das E-Mail von der HTL geben
+  - intent: application_form
+    examples: |
+      - Zeige mir die Anmeldeformulare ?
+      - Wo finde ich die Anmeldeformulare?
+      - Formulare
+      - Anmeldeformulare
+      - Welche Formulare muss ich ausfüllen, damit ich mich in der HTL anmelden kann?
+      - Welche Anmeldeformulare gibt es?
+      - Welche Formulare braucht man beim Anmelden in der HTL?
+      - Welche Formulare sind fürs Anmelden relevant?
+      - Welche Formulare sind fürs Anmelden wichtig?
+      - Welche Formulare sind fürs Anmelden interessant?
+      - Welche Zetteln sind fürs Anmelden relevant?
+      - Welche Zetteln sind fürs Anmelden wichtig?
+      - Welche Zetteln sind fürs Anmelden interessant?
+      - Ich brauch die Formulare fürs Anmelden
+      - Was muss ich ausfüllen, damit ich mich in der HTL anmelden kann
+      - Gib mir alle Anmeldeformulare
+      - Formulare fürs Anmelden?
+      - Welche Zetteln muss ich ausfüllen, wenn ich mich anmelden will
+      - Welche Formulare muss ich ausfüllen, wenn ich mich anmelden will
+      - Welche Anmeldeformulare gibt es
+      - wichtige Formulare für die Anmeldung in der HTL
+  - intent: show_school
+    examples: |
+      - Wie sieht die HTL aus?
+      - Zeig mir die HTL?
+      - Kannst du mir die HTL zeigen?
+      - Zeig mir ein Foto der HTL?
+      - Ich würde die HTL gerne sehen?
+      - Wie sieht die HTL denn so aus?
+  - intent: ask_htl_general
+    examples: |
+      - Was ist die HTL Leonding?
+      - HTL Leonding?
+      - HTL?
+      - HTL leonding was ist das?
+      - htl
+      - htl yo
+      - Htl infos
+      - Erzähl mir etwas über die HTL Leonding
+  - synonym: HTL
+    examples: |
+      - HTL Leonding
+      - HTBLA
+      - HTBLA Leonding
+      - Schule
+  - synonym: Elektronik
+    examples: |
+      - Elektronik-Abteilung
+      - Elektrotechnik
+      - Elektrotechniker
+      - Höhere Elektronik
+  - synonym: Medientechnik
+    examples: |
+      - Medientechnik-Abteilung
+      - IT-Medientechnik
+      - IT Medientechnik
+      - Medientechnologie
+  - synonym: Informatik
+    examples: |
+      - Informatik-Abteilung
+      - IT
+      - Programmieren
+      - Programmierer
+      - Programmierzweig
+  - synonym: Medizintechnik
+    examples: |
+      - Biomedizin
+      - Biomediziner
+      - Gesundheitstechnik

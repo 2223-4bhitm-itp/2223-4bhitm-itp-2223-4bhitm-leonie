@@ -1,0 +1,46 @@
+version: "3.1"
+stories:
+  - story: ask about medt branch
+    steps:
+      - intent: branch_medt
+      - action: utter_branch_medt
+  - story: ask about medizintechnik branch
+    steps:
+      - intent: branch_medizintechnik
+      - action: utter_branch_medizintechnik
+  - story: ask about elektronik branch
+    steps:
+      - intent: branch_elektronik
+      - action: utter_branch_elektronik
+  - story: ask about informatik branch
+    steps:
+      - intent: branch_informatik
+      - action: utter_branch_informatik
+  - story: ask the way to the school
+    steps:
+      - intent: way_to_school
+      - action: utter_way_to_school
+  - story: telling a joke
+    steps:
+      - intent: tell_joke
+      - action: utter_tell_joke
+  - story: info about project award
+    steps:
+      - intent: project_award
+      - action: utter_project_award
+  - story: contact data info
+    steps:
+      - intent: contact_data
+      - action: utter_contact_data
+  - story: application form
+    steps:
+      - intent: application_form
+      - action: utter_application_form
+  - story: show some pics of HTL
+    steps:
+      - intent: show_school
+      - action: utter_show_school
+  - story: general information about the htl
+    steps:
+      - intent: ask_htl_general
+      - action: utter_ask_htl_general
