@@ -20,11 +20,13 @@ ifdef::backend-html5[]
 
 Clone the https://github.com/htblaleonie/leonie-2d[Repo] correctly
 [source,bash]
+
 ----
 git clone https://github.com/htblaleonie/leonie-2d.git --recurse-submodules
 ----
 
 === Startup
+
 [source,bash]
 ----
 cd leonie-2d <.>
@@ -34,9 +36,8 @@ skaffold dev
 cd rasa
 docker run -it -v $(pwd):/app rasa/rasa:3.2.9-full shell --endpoints endpoints.dev.yml
 ----
+
 <.> Leonie-2D code from https://github.com/htblaleonie/leonie-2d[GitHub]
-
-
 
 == Files
 
@@ -45,6 +46,7 @@ NOTE: Comming soon
 === Questions / Answers
 
 ==== Mona Angerer
+
 .Medientechnik
 [%collapsible]
 ====
@@ -82,9 +84,8 @@ Questions:
 Answer:
 
 In der Medientechnik-Abteilung liegt der Schwerpunkt auf Design und Kreativität.
-Es werden Fächer wie Audio, Fotografie, Video und Webdevelopment und -design unterrichtet, gleichzeitig werden
-auch, ähnlich zur Informatik, Themen wie Programmieren und Datanbanken behandelt. Der Fokus ist aber stets
-auf der kreativen Auslebung und Gestaltung.
+Es werden Fächer wie Audio, Fotografie, Video und Webdevelopment und -design unterrichtet, gleichzeitig werden auch, ähnlich zur Informatik, Themen wie Programmieren und Datanbanken behandelt.
+Der Fokus ist aber stets auf der kreativen Auslebung und Gestaltung.
 
 ====
 
@@ -130,7 +131,6 @@ Answer:
 
 ====
 
-
 .Medizintechnik
 [%collapsible]
 ====
@@ -170,7 +170,6 @@ Answer:
 
 ====
 
-
 .Elektrotechnik
 [%collapsible]
 ====
@@ -208,11 +207,11 @@ Answer:
 ====
 
 ==== David Thaller
+
 .Schulweg
 [%collapsible]
 ====
 .Questions:
-
 * Wie komme ich in die HTL Leonding?
 * Wie fahre ich in die HTL Leonding?
 * Wie erreiche ich in die HTL Leonding?
@@ -294,8 +293,7 @@ Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nu
 * Treffen sich zwei.
 Einer kommt nicht.
 
-* Sagt der eine zum anderen: "Hast du schon etwas von der neuen Rechtschreibung gehört?"
-Sagt der andere: "Nein, ich bin Linkshänder!"
+* Sagt der eine zum anderen: "Hast du schon etwas von der neuen Rechtschreibung gehört?" Sagt der andere: "Nein, ich bin Linkshänder!"
 
 * Treffen sich zwei Magnete, sagt der eine: „Was soll ich heute bloß anziehen?“
 
@@ -315,7 +313,6 @@ Sagt der andere: "Nein, ich bin Linkshänder!"
 
 ==== Abdulrahman AL Sabagh
 
-
 .Project Award:
 [%collapsible]
 ====
@@ -331,12 +328,24 @@ intent_project_award:
 - Weißt du was Project Award ist?
 - Was versteht man unter Project award?
 - Was heißt Project Award
-- Kannst du mir sagen, was  das Project Award sein soll ?
-- Kannst du mir erzählen, was  das Project Award sein soll ?
+- Kannst du mir sagen, was das Project Award sein soll ?
+- Kannst du mir erzählen, was das Project Award sein soll ?
 - Kannst du mir sagen, was das Project Award ist?
 - Kannst du mir sagen, was man unter Project Award versteht ?
 - Kannst du mir sagen, was Project Award eigentlich heißt?
 - Kannst du mir erklären, was Project Award eigentlich ist?
-- Kannst du mir erklären, was  das Project Award sein soll ?
+- Kannst du mir erklären, was das Project Award sein soll ?
 - Kannst du mir erklären, was Project Award eigentlich heißt?
-- Kannst du mir erklären, was man unter Project Award  versteht ?
+- Kannst du mir erklären, was man unter Project Award versteht ?
+
+
+.Answer:
+- Die Schüler*innen der Abschlussklassen werden eingeladen, ihre SYP/ITP-Projekte und Diplomarbeiten zur Prämierung einzureichen.
+Der Sieger der Kategorie „Best of Project“ erhält einen Geldpreis in der Höhe von € 600,-.
+Für die beiden Kategorien „Best of Business“ und „Best of Innovation“ erhalten jeweils einen Geldpreis in der Höhe von € 300,-
+
+Weitere Infos : https://www.htl-leonding.at/schueler/projekte-events/project-award/
+====
+
+
+
