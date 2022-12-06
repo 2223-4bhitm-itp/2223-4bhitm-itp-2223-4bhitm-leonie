@@ -212,6 +212,8 @@ Anatomie und Physiologie sowie Biosignalverarbeitung und Medizin- und Gesundheit
 
 .Answer:
 
+Die vielseitige Ausbildung vereint Hardware und Software in nahezu unendlich vielen Anwendungen. Bis zur Matura sind Schüler und Schülerinnen in der Lage, umfangreichere elektronische Schaltungen und Systeme aufzubauen und zu programmieren.
+
 ====
 
 ==== David Thaller
