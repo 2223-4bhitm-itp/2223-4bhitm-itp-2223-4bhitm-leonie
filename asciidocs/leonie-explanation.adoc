@@ -1,0 +1,42 @@
+= What you need to know about Leonie
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+== What is Leonie?
+Leonie  is a chatbot in the role as a contact person on the HTL-Leonding homepage to present the diverse educational program and to answer individual questions.
+
+== Leonie-3D
+- Chatbot: https://leonie.htl-leonding.ac.at/[leonie.htl-leonding.ac.at]
+
+== Leonie-2D
+The frontend, backend and dashboard already exist.
+
+=== Frontend
+On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/frontend[Frontend] you can already chat with Leonie.
+
+
+=== Backend
+https://student.cloud.htl-leonding.ac.at/d.pavelescu/backend[Backend] runs on a Quarkus application.
+
+=== Dashboard:
+On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/dashboard/[Dashboard] you will see:
+
+* Conversations between User and Leonie
+* Intents (intention of a user)
+* Stories (a story serves as an example of what a conversation can look like)
+* Responses (answer by Leonie to a message from the user)
+* Rules
+* Domain
+
+On the dashboard you can add an intent with their stories and responses.
