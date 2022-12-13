@@ -1,4 +1,8 @@
 = Some Slide
 ifndef::imagesdir[:imagesdir: ../images]
+:customcss: css/presentation.css
+:icons: font
 
+image::img.png[]
 
+Testing filter by changing documentation file

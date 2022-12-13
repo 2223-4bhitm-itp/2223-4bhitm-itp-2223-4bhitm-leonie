@@ -29,7 +29,7 @@ On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/frontend[Frontend] y
 === Backend
 https://student.cloud.htl-leonding.ac.at/d.pavelescu/backend[Backend] runs on a Quarkus application.
 
-=== Dashboard:
+=== Dashboard
 On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/dashboard/[Dashboard] you will see:
 
 * Conversations between User and Leonie
@@ -40,3 +40,8 @@ On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/dashboard/[Dashboard
 * Domain
 
 On the dashboard you can add an intent with their stories and responses.
+
+=== Lifecyle
+
+image::img/lifecycle.jpeg[]
+
