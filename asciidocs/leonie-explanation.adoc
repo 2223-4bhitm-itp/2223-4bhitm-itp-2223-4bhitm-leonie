@@ -16,6 +16,10 @@ ifdef::backend-html5[]
 == What is Leonie?
 Leonie  is a chatbot in the role as a contact person on the HTL-Leonding homepage to present the diverse educational program and to answer individual questions.
 
+== Lifecyle
+
+image::/images/lifecycle.jpeg[]
+
 == Leonie-3D
 - Chatbot: https://leonie.htl-leonding.ac.at/[leonie.htl-leonding.ac.at]
 
@@ -41,7 +45,5 @@ On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/dashboard/[Dashboard
 
 On the dashboard you can add an intent with their stories and responses.
 
-=== Lifecyle
 
-image::img/lifecycle.jpeg[]
 
