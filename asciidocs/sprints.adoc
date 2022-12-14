@@ -21,12 +21,18 @@ ifdef::backend-html5[]
 |15-11-22 |22-11-22 |Prof. Stütz |being able to start Leonie | icon:check[]
 |15-11-22 |22-11-22 |Prof. Stütz |explaining Rasa architecture and existing repo structure | icon:check[]
 |15-11-22 |22-11-22 |Prof. Stütz |documenting how Rasa works & how to install and start it | icon:check[]
-|22-11-22 |06-12-22 |Prof. Stütz |clean Layout for Smartphones |
-|22-11-22 |06-12-22 |Prof. Stütz |information about the various training areas |
-|22-11-22 |06-12-22 |Prof. Stütz |recognizing a problematic conversation and improving responses |
+|22-11-22 |06-12-22 |Prof. Stütz |clean Layout for Smartphones | icon:check[]
+|22-11-22 |06-12-22 |Prof. Stütz |information about the various training areas | icon:check[]
+|22-11-22 |06-12-22 |Prof. Stütz |recognizing a problematic conversation and improving responses | icon:check[]
 |22-11-22 |06-12-22 |Prof. Stütz |listing of senseless stories (conversation histories) |
 |22-11-22 |06-12-22 |Prof. Stütz |listing often asked questions -> using no rules|
+|22-11-22 |06-12-22 |Prof. Stütz |listing often asked questions -> using no rules|
+|13-12-22 |20-12-22 |Prof. Stütz  |Opposite between Leonie 2D and 3D|
+|13-12-22 |20-12-22 |Prof. Stütz  |start Leonie|
+|13-12-22 |20-12-22 |Prof. Stütz  |Deployment Leo Cloud|
+|13-12-22 |20-12-22 |Prof. Stütz  |Opposite between Google-Text-to-speech and OpenAI Whisper|
 |====
+
 
 
 == 15-11-2022
