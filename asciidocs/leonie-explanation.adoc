@@ -17,6 +17,8 @@ ifdef::backend-html5[]
 Leonie  is a chatbot in the role as a contact person at the HTL-Leonding homepage to present the diverse educational program and to answer individual questions.
 
 
+
+
 == Lifecyle
 
 image::/images/lifecycle.jpeg[]
