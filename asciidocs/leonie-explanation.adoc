@@ -59,8 +59,9 @@ errors, bugs or questions she doesn't understand yet. Now you can, for expample,
 
 == The difference between Leonie 2D and Leonie 3D
 
-Leonie 3D has some questions, the 2D version cannot answer. Because she is in 3D and animated, she can
-for instance dance, ...
+Leonie 3D can answer some question, the 2D version doesn't understand. Because she is in 3D and animated, she can
+for instance dance, talk, laugh, ...
+
 The 3D version also has access to WebUntis, which means you can ask her questions about the locations
 of teachers and the timetable.
 
