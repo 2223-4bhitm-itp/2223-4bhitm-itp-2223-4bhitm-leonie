@@ -1,0 +1,57 @@
+= Converting audio to text and the other way around
+
+== Knowledge requirements
+
+- rasa
+- rest or other client / server communication methods
+- Python
+- some knowledge in frontend
+- cloud account, when using a cloud service to handle this task.
+Otherwise, a library
+
+== How does the architecture work
+
+1. User sends a voice message
+2. This message should be converted to an audio file
+3. This file will be sent to the backend
+4. The backend should convert the audio file into a text
+5. After that the backend should trigger the Ai to receive a response on the asked question
+6. The AI's response will be converted into an audio file using the service / library.
+7. The frontend will receive the audio file and continue the process.
+
+NOTE: We can convert the audio to a text or the other way around on the frontend layer
+
+NOTE: We would need a (micro-)service for the frontend.
+A (micro-)service for the backend and a (micro-)service for the ai.
+
+=== recommended UI-element for the audio input
+
+[source,shell]
+----
+git clone https://github.com/RasaHQ/rasa-voice-interface.git
+cd rasa-voice-interface
+npm install
+npm run serve
+
+----
+
+
+=== Text-to-Speech /Speech-to-Text services of  google
+
+
+- Create an account on the google cloud
+- enable the service
+- add your account credentials to your codebase
+- fetch the data from the cloud
+
+
+=== Using Whisper (OpenAPI plugin)
+
+[source,shell]
+----
+python -m pip install git+https://github.com/openai/whisper.git
+----
+
+
+
+
