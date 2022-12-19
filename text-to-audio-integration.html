@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<meta name="author" content="Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Starting Leonie Chatbot / 22-23 / 4bhitm / ITP</title>
+<title>Converting audio to text and the other way around</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -656,23 +655,16 @@ pre.rouge {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Starting Leonie Chatbot / 22-23 / 4bhitm / ITP</h1>
-<div class="details">
-<span id="author" class="author">Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman</span><br>
-<span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2022-12-19</span>
-<br><span id="revremark">Informationstechnische Projekte</span>
-</div>
+<h1>Converting audio to text and the other way around</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_starting_leonie_holo">1. Starting Leonie HOLO</a>
+<li><a href="#_knowledge_requirements">1. Knowledge requirements</a></li>
+<li><a href="#_how_does_the_architecture_work">2. How does the architecture work</a>
 <ul class="sectlevel2">
-<li><a href="#_cables_and_periphery">1.1. Cables and periphery</a></li>
-<li><a href="#_connect_power_display_and_ethernet">1.2. Connect Power, Display and Ethernet</a></li>
-<li><a href="#_start_the_computer">1.3. Start the Computer</a></li>
-<li><a href="#_automation">1.4. Automation</a></li>
-<li><a href="#_chatting">1.5. Chatting</a></li>
+<li><a href="#_recommended_ui_element_for_the_audio_input">2.1. recommended UI-element for the audio input</a></li>
+<li><a href="#_text_to_speech_speech_to_text_services_of_google">2.2. Text-to-Speech /Speech-to-Text services of  google</a></li>
+<li><a href="#_using_whisper_openapi_plugin">2.3. Using Whisper (OpenAPI plugin)</a></li>
 </ul>
 </li>
 </ul>
@@ -680,8 +672,58 @@ pre.rouge {
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_starting_leonie_holo"><a class="anchor" href="#_starting_leonie_holo"></a>1. Starting Leonie HOLO</h2>
+<h2 id="_knowledge_requirements"><a class="anchor" href="#_knowledge_requirements"></a>1. Knowledge requirements</h2>
 <div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>rasa</p>
+</li>
+<li>
+<p>rest or other client / server communication methods</p>
+</li>
+<li>
+<p>Python</p>
+</li>
+<li>
+<p>some knowledge in frontend</p>
+</li>
+<li>
+<p>cloud account, when using a cloud service to handle this task.
+Otherwise, a library</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_does_the_architecture_work"><a class="anchor" href="#_how_does_the_architecture_work"></a>2. How does the architecture work</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>User sends a voice message</p>
+</li>
+<li>
+<p>This message should be converted to an audio file</p>
+</li>
+<li>
+<p>This file will be sent to the backend</p>
+</li>
+<li>
+<p>The backend should convert the audio file into a text</p>
+</li>
+<li>
+<p>After that the backend should trigger the Ai to receive a response on the asked question</p>
+</li>
+<li>
+<p>The AI&#8217;s response will be converted into an audio file using the service / library.</p>
+</li>
+<li>
+<p>The frontend will receive the audio file and continue the process.</p>
+</li>
+</ol>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -689,132 +731,60 @@ pre.rouge {
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Default Location: first floor, on the left side
+We can convert the audio to a text or the other way around on the frontend layer
 </td>
 </tr>
 </table>
 </div>
-<div class="admonitionblock important">
+<div class="admonitionblock note">
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-important" title="Important"></i>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Pictures and detailed instructions will follow
+We would need a (micro-)service for the frontend.
+A (micro-)service for the backend and a (micro-)service for the ai.
 </td>
 </tr>
 </table>
 </div>
 <div class="sect2">
-<h3 id="_cables_and_periphery"><a class="anchor" href="#_cables_and_periphery"></a>1.1. Cables and periphery</h3>
-<div class="paragraph">
-<p>Push Leonie a few meters forwards, so you can easily reach her back. Now open it and you should find:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Cables - usually - on the bottom or middle shelf</p>
-</li>
-<li>
-<p>Keyboard with Mouse, Mic - on the very top shelf</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_connect_power_display_and_ethernet"><a class="anchor" href="#_connect_power_display_and_ethernet"></a>1.2. Connect Power, Display and Ethernet</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Connect the power strip <em>(bottom)</em> to an outlet</p>
-</li>
-<li>
-<p>Connect the ethernet-cable with an ethernet-port</p>
-<div class="ulist">
-<ul>
-<li>
-<p>use the far left port, the others are not working properly</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Connect the HDMI Cable to the Monitor</p>
-<div class="ulist">
-<ul>
-<li>
-<p>use the signal booster if needed</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_start_the_computer"><a class="anchor" href="#_start_the_computer"></a>1.3. Start the Computer</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Press the start-button of the PC</p>
-<div class="ulist">
-<ul>
-<li>
-<p>you can find it on the top-left in the middle of the case (biggest button)</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_automation"><a class="anchor" href="#_automation"></a>1.4. Automation</h3>
-<div class="paragraph">
-<p>A terminal window should now be shown</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>press any Key</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Leonie should now appear</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Wrong Screen?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>usw <code>WIN</code> + <code>SHIFT</code> + <code>ARROWS</code> to rearrange</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Now everything should be working, and you can chat with Leonie</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_chatting"><a class="anchor" href="#_chatting"></a>1.5. Chatting</h3>
-<div class="paragraph">
-<p>You can ask her several questions, using the keyboard or the microphone. You can, for example,
-try some fun stuff like this:</p>
-</div>
+<h3 id="_recommended_ui_element_for_the_audio_input"><a class="anchor" href="#_recommended_ui_element_for_the_audio_input"></a>2.1. recommended UI-element for the audio input</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="rouge highlight"><code data-lang="md">Wo befindet sich Prof. Stütz gerade.</code></pre>
+<pre class="rouge highlight"><code data-lang="shell">git clone https://github.com/RasaHQ/rasa-voice-interface.git
+<span class="nb">cd </span>rasa-voice-interface
+npm <span class="nb">install
+</span>npm run serve</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>Or just click on the questions Leonie suggests, which you can find on the left side of the screen, and see what happens.</p>
+</div>
+<div class="sect2">
+<h3 id="_text_to_speech_speech_to_text_services_of_google"><a class="anchor" href="#_text_to_speech_speech_to_text_services_of_google"></a>2.2. Text-to-Speech /Speech-to-Text services of  google</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Create an account on the google cloud</p>
+</li>
+<li>
+<p>enable the service</p>
+</li>
+<li>
+<p>add your account credentials to your codebase</p>
+</li>
+<li>
+<p>fetch the data from the cloud</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_using_whisper_openapi_plugin"><a class="anchor" href="#_using_whisper_openapi_plugin"></a>2.3. Using Whisper (OpenAPI plugin)</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="shell">python <span class="nt">-m</span> pip <span class="nb">install </span>git+https://github.com/openai/whisper.git</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -822,7 +792,6 @@ try some fun stuff like this:</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.0<br>
 Last updated 2022-12-19 20:34:09 UTC
 </div>
 </div>
