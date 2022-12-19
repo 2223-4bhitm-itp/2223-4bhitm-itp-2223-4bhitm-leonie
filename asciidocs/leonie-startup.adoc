@@ -13,7 +13,7 @@ ifdef::backend-html5[]
 
 // print the toc here (not at the default position)
 //toc::[]
-== Starting Leonie with HOLO
+== Starting Leonie HOLO
 
 NOTE: Default Location: first floor, on the left side
 
@@ -21,43 +21,44 @@ IMPORTANT: Pictures and detailed instructions will follow
 
 === Cables and periphery
 
-* Cables - usually - bottom or middle
-* Keyboard with Mouse, Mic - top
+Push Leonie a few meters forwards, so you can easily reach her back. Now open it and you should find:
+
+* Cables - usually - on the bottom or middle shelf
+* Keyboard with Mouse, Mic - on the very top shelf
 
 === Connect Power, Display and Ethernet
 
-Open the back of Leonie:
-
 * Connect the power strip _(bottom)_ to an outlet
 * Connect the ethernet-cable with an ethernet-port
-** use the far left the others are not working properly
+** use the far left port, the others are not working properly
 * Connect the HDMI Cable to the Monitor
-** use the signal booster
+** use the signal booster if needed
 
 === Start the Computer
 
 * Press the start-button of the PC
-** top-left in the middle of the case (biggest button)
+** you can find it on the top-left in the middle of the case (biggest button)
 
 === Automation
 
-A terminal window should be shown
+A terminal window should now be shown
 
 * press any Key
 
-Leonie is now shown
+Leonie should now appear
 
 * Wrong Screen?
 ** usw `WIN` + `SHIFT` + `ARROWS` to rearrange
 
-Now everything is working and you can Chat with Leonie
+Now everything should be working, and you can chat with Leonie
 
 === Chatting
 
-Try some fun stuff:
+You can ask her several questions, using the keyboard or the microphone. You can, for example,
+try some fun stuff like this:
 [source,md]
 ----
-wo ist Prof. Stütz gerade
+Wo befindet sich Prof. Stütz gerade.
 ----
 
-Or just click on the chats on the left side and see what happens
+Or just click on the questions Leonie suggests, which you can find on the left side of the screen, and see what happens.

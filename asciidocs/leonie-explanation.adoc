@@ -14,20 +14,28 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 == What is Leonie?
-Leonie  is a chatbot in the role as a contact person on the HTL-Leonding homepage to present the diverse educational program and to answer individual questions.
+Leonie  is a chatbot in the role as a contact person at the HTL-Leonding homepage to present the diverse educational program and to answer individual questions.
+
 
 == Lifecyle
 
 image::/images/lifecycle.jpeg[]
 
 == Leonie-3D
-- Chatbot: https://leonie.htl-leonding.ac.at/[leonie.htl-leonding.ac.at]
+
+Leonie-3D or Leonie HOLO is a Chatbot locally running at HTL Leonding. It consists of a screen and a
+HOLO-Installation where you can look at Leonie from different angles.
+These 2 components are connected with each other. How you can start the Leonie HOLO is shown https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/leonie-startup[here].
+
+// - Chatbot: https://leonie.htl-leonding.ac.at/[leonie.htl-leonding.ac.at]
+
 
 == Leonie-2D
 The frontend, backend and dashboard already exist.
 
 === Frontend
-On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/frontend[Frontend] you can already chat with Leonie.
+The https://student.cloud.htl-leonding.ac.at/d.pavelescu/frontend[Frontend] page is an alternative version of the HTL Leonding website
+where Leonie is already included, so you can chat with her.
 
 
 === Backend
@@ -36,14 +44,24 @@ https://student.cloud.htl-leonding.ac.at/d.pavelescu/backend[Backend] runs on a 
 === Dashboard
 On the https://student.cloud.htl-leonding.ac.at/d.pavelescu/dashboard/[Dashboard] you will see:
 
-* Conversations between User and Leonie
+* Conversations (to view past conversations between users and Leonie)
 * Intents (intention of a user)
 * Stories (a story serves as an example of what a conversation can look like)
 * Responses (answer by Leonie to a message from the user)
 * Rules
 * Domain
+* Logs
 
-On the dashboard you can add an intent with their stories and responses.
+The dashboard is designed to review past *conversations* between users and Leonie, so you can find possible
+errors, bugs or questions she doesn't understand yet. Now you can, for expample, add an *Intent* with
+*Stories* and *Responses* to fix the errors and improve Leonie's skills.
 
+
+== The difference between Leonie 2D and Leonie 3D
+
+Leonie 3D has some questions, the 2D version cannot answer. Because she is in 3D and animated, she can
+for instance dance, ...
+The 3D version also has access to WebUntis, which means you can ask her questions about the locations
+of teachers and the timetable.
 
 

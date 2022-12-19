@@ -29,9 +29,6 @@ image::https://www.plantuml.com/plantuml/png/9Own3i8m34JtVCMfUmV-e18hAn_WkcuJ4Mm
 image::https://www.plantuml.com/plantuml/png/JOv1JiGm34NtESNNxBjWkC18RDbo09EuRQJKBhO36Y7k3XaAcjsN_lTxldYGHTzQQZm7Gc5rMGEb6kUeAebogE7aULLj9v1ZpccK94jZFBDAvIcl5AyQ-4n0TyxaZ1E9Vx1LMR1hi4IbXhVEFhW_6DCD7hsmX8EaO2SR-IPvUNguH-t6FWYo7CPZTBuVrTQwXz5jnkzirq9N_7wELkU_eyVqbUQCQHgM_tG-qkWlBALlxHi0[UC-school]
 ====
 
-== Sprints
-* https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/sprints[Sprint  Documentation]
-
 
 == RASA
 * https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/rasa-installation[Installation Linux / Mac]
