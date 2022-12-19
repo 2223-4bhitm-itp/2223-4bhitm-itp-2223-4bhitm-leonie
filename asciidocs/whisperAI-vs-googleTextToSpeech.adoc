@@ -1,0 +1,29 @@
+= Whisper AI vs Google text to speech
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+== Whisper AI
+Whisper AI is an artificial intelligence platform that enables to automate and optimize customer engagement.
+It uses natural language processing and machine learning technologies to understand customer intent and provide personalized, automated responses.
+It is designed to help create better customer experiences, increase customer engagement, reduce customer service costs, and generate more leads.
+
+== Google text to speech
+Google text to speech is a technology developed by Google that converts written text into natural-sounding speech.
+It allows developers, publishers, and website owners to add speech output to their applications, documents, and websites.
+It supports a wide range of languages, and can be used for a variety of purposes, including accessibility, education, and entertainment.
+
+
+== Opposite
+Google Text to Speech is a cloud-based technology that converts text into natural-sounding audio, while Whisper AI is a speech recognition software that converts audio into text.
+They are both used to convert information from one form to another, but they are used for different purposes.
