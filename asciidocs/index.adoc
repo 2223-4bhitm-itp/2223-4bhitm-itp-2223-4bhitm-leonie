@@ -63,4 +63,61 @@ ifdef::backend-html5[]
 // Definition of done: Liste; 10 Fragen formulieren, die häufig kommen -> ohne dass wir Rules verwenden, sinnvolle Fragen;
 
 
+////
+git pull --recurse-submodules
+
+im submodule : git pull
+
+backend
+helm ordner
+
+values-overrides: daten eintragen
+token: read packages
+
+!!kubernetes manifest
+
+service
+ingress
+
+dashboard
+values-overrides
+
+frontebd
+values-overrides
+
+rasa
+values-overrides
+
+frontend
+package.json
+
+dashboard
+//package.json
+
+
+//überall namen ändern
+
+ghcr credentials kubernetes
+doku
+echo -n "n-name:token" |base64
+
+echo -n '{}'
+
+
+kubectl
+get pods
+
+
+kubectl apply -f helm/templates/ghcr-credentials.yaml
+
+
+
+./deploy_ks8.sh backend
+./deploy_ks8.sh backend student-p-klose
+
+
+!!helm (fasst manifests zusammen)
+////
+
+
 
