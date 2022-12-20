@@ -1,0 +1,90 @@
+= Deploying Leonie Chatbot / 22-23 / 4bhitm / ITP
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+
+=== Kubernetes Manifest
+
+The Kobernetes Manifest is a specification of a Kubernetes API object in JSON or YAML format.
+A manifest specifies the desired state of an object that Kubernetes will maintain when you apply the manifest.
+
+
+
+=== Helm
+
+Helm is a package manager for Kubernetes.
+
+
+
+
+
+////
+git pull --recurse-submodules
+
+im submodule : git pull
+
+backend
+helm ordner
+
+values-overrides: daten eintragen
+token: read packages
+
+!!kubernetes manifest
+
+service
+ingress
+
+dashboard
+values-overrides
+
+frontebd
+values-overrides
+
+rasa
+values-overrides
+
+frontend
+package.json
+
+dashboard
+//package.json
+
+
+
+
+
+//überall namen ändern
+
+ghcr credentials kubernetes
+doku
+echo -n "n-name:token" |base64
+
+echo -n '{}'
+
+
+kubectl
+get pods
+
+
+kubectl apply -f helm/templates/ghcr-credentials.yaml
+
+
+
+./deploy_ks8.sh backend
+./deploy_ks8.sh backend student-p-klose
+
+
+!!helm (fasst manifests zusammen)
+////
