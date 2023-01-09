@@ -438,6 +438,221 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+pre.rouge table td { padding: 5px; }
+pre.rouge table pre { margin: 0; }
+pre.rouge .cm {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cp {
+  color: #999999;
+  font-weight: bold;
+}
+pre.rouge .c1 {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+pre.rouge .c, pre.rouge .ch, pre.rouge .cd, pre.rouge .cpf {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+pre.rouge .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+pre.rouge .ge {
+  color: #000000;
+  font-style: italic;
+}
+pre.rouge .gr {
+  color: #aa0000;
+}
+pre.rouge .gh {
+  color: #999999;
+}
+pre.rouge .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+pre.rouge .go {
+  color: #888888;
+}
+pre.rouge .gp {
+  color: #555555;
+}
+pre.rouge .gs {
+  font-weight: bold;
+}
+pre.rouge .gu {
+  color: #aaaaaa;
+}
+pre.rouge .gt {
+  color: #aa0000;
+}
+pre.rouge .kc {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kd {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kn {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kp {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kr {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kt {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .k, pre.rouge .kv {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .mf {
+  color: #009999;
+}
+pre.rouge .mh {
+  color: #009999;
+}
+pre.rouge .il {
+  color: #009999;
+}
+pre.rouge .mi {
+  color: #009999;
+}
+pre.rouge .mo {
+  color: #009999;
+}
+pre.rouge .m, pre.rouge .mb, pre.rouge .mx {
+  color: #009999;
+}
+pre.rouge .sa {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .sb {
+  color: #d14;
+}
+pre.rouge .sc {
+  color: #d14;
+}
+pre.rouge .sd {
+  color: #d14;
+}
+pre.rouge .s2 {
+  color: #d14;
+}
+pre.rouge .se {
+  color: #d14;
+}
+pre.rouge .sh {
+  color: #d14;
+}
+pre.rouge .si {
+  color: #d14;
+}
+pre.rouge .sx {
+  color: #d14;
+}
+pre.rouge .sr {
+  color: #009926;
+}
+pre.rouge .s1 {
+  color: #d14;
+}
+pre.rouge .ss {
+  color: #990073;
+}
+pre.rouge .s, pre.rouge .dl {
+  color: #d14;
+}
+pre.rouge .na {
+  color: #008080;
+}
+pre.rouge .bp {
+  color: #999999;
+}
+pre.rouge .nb {
+  color: #0086B3;
+}
+pre.rouge .nc {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .no {
+  color: #008080;
+}
+pre.rouge .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+pre.rouge .ni {
+  color: #800080;
+}
+pre.rouge .ne {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nf, pre.rouge .fm {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nl {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nn {
+  color: #555555;
+}
+pre.rouge .nt {
+  color: #000080;
+}
+pre.rouge .vc {
+  color: #008080;
+}
+pre.rouge .vg {
+  color: #008080;
+}
+pre.rouge .vi {
+  color: #008080;
+}
+pre.rouge .nv, pre.rouge .vm {
+  color: #008080;
+}
+pre.rouge .ow {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .o {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .w {
+  color: #bbbbbb;
+}
+pre.rouge {
+  background-color: #f8f8f8;
+}
+</style>
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
@@ -445,7 +660,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman</span><br>
 <span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2022-12-20</span>
+<span id="revdate">2023-01-09</span>
 <br><span id="revremark">Informationstechnische Projekte</span>
 </div>
 <div id="toc" class="toc2">
@@ -453,6 +668,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_kubernetes_manifest">1. Kubernetes Manifest</a></li>
 <li><a href="#_helm">2. Helm</a></li>
+<li><a href="#_deploy_on_your_own_namespace">3. Deploy on your own Namespace</a>
+<ul class="sectlevel2">
+<li><a href="#_setting_up_your_workspace">3.1. Setting up your Workspace</a></li>
+<li><a href="#_overwrite_helm_config">3.2. Overwrite Helm Config</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -470,11 +691,135 @@ A manifest specifies the desired state of an object that Kubernetes will maintai
 <p>Helm is a package manager for Kubernetes.</p>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_deploy_on_your_own_namespace"><a class="anchor" href="#_deploy_on_your_own_namespace"></a>3. Deploy on your own Namespace</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_setting_up_your_workspace"><a class="anchor" href="#_setting_up_your_workspace"></a>3.1. Setting up your Workspace</h3>
+<div class="paragraph">
+<p>If you don&#8217;t habe the Lenoie-2D repo:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="shell">git clone https://github.com/htblaleonie/leonie-2d.git <span class="nt">--recurse-submodules</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you have the Leonie-2D already:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code data-lang="shell">git pull <span class="nt">--recurse-submodules</span></code></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+set all branches to <strong>Master</strong> / <strong>Main</strong> due to the fetch from github the branch often changes
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_overwrite_helm_config"><a class="anchor" href="#_overwrite_helm_config"></a>3.2. Overwrite Helm Config</h3>
+<div class="paragraph">
+<p>Create a <code>values.overrides.yaml</code> in each helm dictionary from the project (backend, frontend, dashboard, rasa)
+This process is quite easy because you can just duplicate the existing values.yaml and follow the given examples:</p>
+</div>
+<details>
+<summary class="title">Detailed Examples:</summary>
+<div class="content">
+<div class="listingblock">
+<div class="title">backend/helm/values.overrides.yaml</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">image</span><span class="pi">:</span>
+  <span class="na">repository</span><span class="pi">:</span> <span class="s">ghcr.io/htblaleonie/leonie-2d-backend</span>
+  <span class="na">pullPolicy</span><span class="pi">:</span> <span class="s">Always</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s">latest</span>
+
+<span class="c1"># Image used to train rasa model</span>
+<span class="na">train</span><span class="pi">:</span>
+  <span class="na">repository</span><span class="pi">:</span> <span class="s">ghcr.io/htblaleonie/leonie-2d-rasa-train-model</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s">latest</span>
+  <span class="na">pullPolicy</span><span class="pi">:</span> <span class="s">Always</span>
+
+<span class="c1"># Needed to pull rasa repository from github</span>
+<span class="na">github</span><span class="pi">:</span>
+  <span class="na">username</span><span class="pi">:</span> <span class="s2">"</span><span class="s">maxmustermann"</span>
+  <span class="na">token</span><span class="pi">:</span> <span class="s2">"</span><span class="s">some</span><span class="nv"> </span><span class="s">GH-Token"</span> <span class="c1"># Github Token with read:package permission</span>
+
+<span class="na">ingress</span><span class="pi">:</span>
+  <span class="na">host</span><span class="pi">:</span> <span class="s2">"</span><span class="s">student.cloud.htl-leonding.ac.at"</span>
+  <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/m.mustermann/backend"</span>
+
+<span class="c1"># Weather or not to deploy persistent volume claims</span>
+<span class="na">volumes</span><span class="pi">:</span> <span class="no">true</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">frontend/helm/values.overrides.yaml</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">image</span><span class="pi">:</span>
+  <span class="na">repository</span><span class="pi">:</span> <span class="s">ghcr.io/htblaleonie/leonie-2d-frontend</span>
+  <span class="na">pullPolicy</span><span class="pi">:</span> <span class="s">Always</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s2">"</span><span class="s">latest"</span>
+
+<span class="na">ingress</span><span class="pi">:</span>
+  <span class="na">host</span><span class="pi">:</span> <span class="s2">"</span><span class="s">student.cloud.htl-leonding.ac.at"</span>
+  <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/m.mustermann/frontend"</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">dashboard/helm/values.overrides.yaml</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">image</span><span class="pi">:</span>
+  <span class="na">repository</span><span class="pi">:</span> <span class="s">ghcr.io/htblaleonie/leonie-2d-dashboard</span>
+  <span class="na">pullPolicy</span><span class="pi">:</span> <span class="s">Always</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s">latest</span>
+
+<span class="na">ingress</span><span class="pi">:</span>
+  <span class="na">host</span><span class="pi">:</span> <span class="s2">"</span><span class="s">student.cloud.htl-leonding.ac.at"</span>
+  <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/m.mustermann/dashboard"</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">rasa/helm/values.overrides.yaml</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">image</span><span class="pi">:</span>
+  <span class="na">repository</span><span class="pi">:</span> <span class="s">ghcr.io/htblaleonie/leonie-2d-rasa-run</span>
+  <span class="na">pullPolicy</span><span class="pi">:</span> <span class="s">Always</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s">latest</span>
+
+<span class="na">actionserver</span><span class="pi">:</span>
+  <span class="na">image</span><span class="pi">:</span>
+    <span class="na">repository</span><span class="pi">:</span> <span class="s">ghcr.io/htblaleonie/leonie-2d-rasa-action-server</span>
+    <span class="na">pullPolicy</span><span class="pi">:</span> <span class="s">Always</span>
+    <span class="na">tag</span><span class="pi">:</span> <span class="s">latest</span>
+
+<span class="na">webuntis</span><span class="pi">:</span>
+  <span class="na">username</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+
+<span class="na">ingress</span><span class="pi">:</span>
+  <span class="na">host</span><span class="pi">:</span> <span class="s2">"</span><span class="s">student.cloud.htl-leonding.ac.at"</span>
+  <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/m.mustermann/rasa"</span></code></pre>
+</div>
+</div>
+</div>
+</details>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2022-12-20 10:24:59 UTC
+Last updated 2023-01-09 22:42:28 UTC
 </div>
 </div>
 </body>
