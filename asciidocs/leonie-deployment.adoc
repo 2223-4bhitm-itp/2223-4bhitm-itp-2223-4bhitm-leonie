@@ -21,11 +21,119 @@ The Kobernetes Manifest is a specification of a Kubernetes API object in JSON or
 A manifest specifies the desired state of an object that Kubernetes will maintain when you apply the manifest.
 
 
-
 === Helm
 
 Helm is a package manager for Kubernetes.
 
+
+== Deploy on your own Namespace
+
+=== Setting up your Workspace
+
+If you don't habe the Lenoie-2D repo:
+
+[source,shell]
+----
+git clone https://github.com/htblaleonie/leonie-2d.git --recurse-submodules
+----
+
+
+If you have the Leonie-2D already:
+
+[source,shell]
+----
+git pull --recurse-submodules
+----
+
+IMPORTANT: set all branches to *Master* / *Main* due to the fetch from github the branch often changes
+
+
+=== Overwrite Helm Config
+
+Create a `values.overrides.yaml` in each helm dictionary from the project (backend, frontend, dashboard, rasa)
+This process is quite easy because you can just duplicate the existing values.yaml and follow the given examples:
+
+.Detailed Examples:
+[%collapsible]
+====
+
+.backend/helm/values.overrides.yaml
+[source,yaml]
+----
+image:
+  repository: ghcr.io/htblaleonie/leonie-2d-backend
+  pullPolicy: Always
+  tag: latest
+
+# Image used to train rasa model
+train:
+  repository: ghcr.io/htblaleonie/leonie-2d-rasa-train-model
+  tag: latest
+  pullPolicy: Always
+
+# Needed to pull rasa repository from github
+github:
+  username: "maxmustermann"
+  token: "some GH-Token" # Github Token with read:package permission
+
+ingress:
+  host: "student.cloud.htl-leonding.ac.at"
+  path: "/m.mustermann/backend"
+
+# Weather or not to deploy persistent volume claims
+volumes: true
+----
+
+.frontend/helm/values.overrides.yaml
+[source,yaml]
+----
+image:
+  repository: ghcr.io/htblaleonie/leonie-2d-frontend
+  pullPolicy: Always
+  tag: "latest"
+
+ingress:
+  host: "student.cloud.htl-leonding.ac.at"
+  path: "/m.mustermann/frontend"
+----
+
+.dashboard/helm/values.overrides.yaml
+[source,yaml]
+----
+image:
+  repository: ghcr.io/htblaleonie/leonie-2d-dashboard
+  pullPolicy: Always
+  tag: latest
+
+ingress:
+  host: "student.cloud.htl-leonding.ac.at"
+  path: "/m.mustermann/dashboard"
+----
+
+.rasa/helm/values.overrides.yaml
+[source,yaml]
+----
+image:
+  repository: ghcr.io/htblaleonie/leonie-2d-rasa-run
+  pullPolicy: Always
+  tag: latest
+
+actionserver:
+  image:
+    repository: ghcr.io/htblaleonie/leonie-2d-rasa-action-server
+    pullPolicy: Always
+    tag: latest
+
+webuntis:
+  username: ""
+  password: ""
+
+ingress:
+  host: "student.cloud.htl-leonding.ac.at"
+  path: "/m.mustermann/rasa"
+----
+
+====
 
 
 

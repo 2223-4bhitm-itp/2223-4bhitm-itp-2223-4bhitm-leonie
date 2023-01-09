@@ -67,4 +67,6 @@ for instance dance, talk, laugh, ...
 The 3D version also has access to WebUntis, which means you can ask her questions about the locations
 of teachers and the timetable.
 
+The Rasa-Backend of both is also completely different because the 3D Leonie was part of a thesis and then taken over by the group that manages the other Leonie.
+
 
