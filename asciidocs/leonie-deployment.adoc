@@ -135,6 +135,13 @@ ingress:
 
 ====
 
+=== TypeScript and JSON file Properties
+
+Just search the whole Projekt and replace `d.pavelescu` with your namespace for example `m.mustermann`
+
+IMPORTANT: Do *NOT PUSH* the changed files from this part to github
+
+NOTE: Work im Progress that there is also an Override Variant
 
 
 
