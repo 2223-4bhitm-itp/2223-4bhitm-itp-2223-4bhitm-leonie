@@ -217,6 +217,8 @@ Die vielseitige Ausbildung vereint Hardware und Software in nahezu unendlich vie
 ====
 
 ==== David Thaller
+
+
 .Tadeot
 [%collapsible]
 ====
@@ -244,7 +246,24 @@ Die vielseitige Ausbildung vereint Hardware und Software in nahezu unendlich vie
 Tag der offenen Tür (Tadeot) in der HTL Leonding findet am 26.1. von 17 bis 20 Uhr und am 27.1. von 11 bis 17 Uhr statt.
 Alle Interessierten an der Elektronik, Informatik, Medizintechnik und IT-Medientechnik haben die Möglichkeit, Informationen über die Schule zu sammeln und erste Eindrücke zu gewinnen.
 Geboten werden Projektpräsentationen, Führungen, Besichtigungen von Labors und Werkstätten, Vorträge, Schnupperstationen und ein reichhaltiges Buffet. Die einzelnen Stationen werden von Schüler:innen der höheren Jahrgänge betreut, die für Fragen jederzeit zur Verfügung stehen.
+====
 
+.Tadeot Parkplatz
+[%collapsible]
+====
+.Questions:
+
+* Gibt es kostenlose Parkplätze während Tag der offenen Tür?
+
+* Parkplatz
+
+.Answer:
+
+Ja es gibt einige freie Parkplätze an der HTL Leonding.
+Solltest du aber keinen mehr finden, gibt es weiter Parkplätze neben der Pizza Manufaktur „Genuss Treff“ in der Ehrenfellner-Straße 11, 4060 Leonding.
+
+
+====
 
 .Schulweg
 [%collapsible]
@@ -342,7 +361,6 @@ Eine weitere Möglichkeit wäre es den 19er Linienbus bis zur Limesstraße zu nu
 * „Was trinken Führungskräfte?“ – Leitungswasser
 * „Welche Tiere können nichts hören?“ – Die Tauben
 * Treffen sich 2 Piloten. 600 Tote
-
 ====
 
 ==== Abdulrahman AL Sabagh
