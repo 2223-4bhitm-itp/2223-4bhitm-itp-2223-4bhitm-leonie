@@ -217,6 +217,34 @@ Die vielseitige Ausbildung vereint Hardware und Software in nahezu unendlich vie
 ====
 
 ==== David Thaller
+.Tadeot
+[%collapsible]
+====
+.Questions:
+
+* Was ist Tadeot?
+* Was bedeutet Tadeot?
+* Was heißt Tadeot?
+* Was sagt Tadeot aus?
+* Was soll Tadeot sein?
+* Kennst du Tadeot?
+* Was versteht man untert Tadeot?
+* Erzähl mir etwas über Tadeot.
+* Kannst du mir sage was Tadeot ist?
+* Wann ist Tag der offenen Tür?
+* Gibt es einen Tag der offenen Tür?
+* Wann findet der nächste Tag der offenen Tür statt?
+* Wie lange dauert der Tag der offenen Tür?
+
+* Tadeot
+* Tag der offenen Tür
+
+.Answer:
+
+Tag der offenen Tür (Tadeot) in der HTL Leonding findet am 26.1. von 17 bis 20 Uhr und am 27.1. von 11 bis 17 Uhr statt.
+Alle Interessierten an der Elektronik, Informatik, Medizintechnik und IT-Medientechnik haben die Möglichkeit, Informationen über die Schule zu sammeln und erste Eindrücke zu gewinnen.
+Geboten werden Projektpräsentationen, Führungen, Besichtigungen von Labors und Werkstätten, Vorträge, Schnupperstationen und ein reichhaltiges Buffet. Die einzelnen Stationen werden von Schüler:innen der höheren Jahrgänge betreut, die für Fragen jederzeit zur Verfügung stehen.
+
 
 .Schulweg
 [%collapsible]

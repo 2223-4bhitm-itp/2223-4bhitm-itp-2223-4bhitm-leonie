@@ -30,7 +30,7 @@ ifdef::backend-html5[]
 |13-12-22 |20-12-22 |Prof. Stütz  |Opposite between Leonie 2D and 3D|
 |13-12-22 |20-12-22 |Prof. Stütz  |start Leonie|
 |13-12-22 |20-12-22 |Prof. Stütz  |Deployment Leo Cloud|
-|13-12-22 |20-12-22 |Prof. Stütz  |Opposite between Google-Text-to-speech and OpenAI Whisper|
+|13-12-22 |20-12-22 |Prof. Stütz  |Opposite between Google-Text-to-speech and OpenAI Whisper| icon:check[]
 |====
 
 
