@@ -1,0 +1,26 @@
+= Pflichtenheft
+Peter Klose, Mona Angerer, David Thaller, Al Sabagh Abdulrahman
+1.0.0, {docdate}: Informationstechnische Projekte
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Ausgangssituation
+Derzeit können auf der Online-Plattform der HTL Leonding Fragen von Schülern, Eltern und Interessenten nur umständlich beantwortet werden, dies ist zeitaufwendig und unübersichtlich.
+Um die Interaktion mit Nutzern zu vereinfachen und schnellere Antworten zu ermöglichen, hat die HTL Leonding beschlossen, einen Chatbot einzuführen.
+Der Chatbot soll Nutzern die Möglichkeit geben, Fragen in natürlicher Sprache zu stellen und automatisch relevante Informationen bereitzustellen.
+
+
+== Istzustand
+Der Chatbot, Leonie genannt, ist bereits eingerichtet und kann einige Fragen der Nutzer beantworten.
+Die Basis des Chatbots wurde mit https://rasa.com/docs/[Rasa] konfiguriert.
+
