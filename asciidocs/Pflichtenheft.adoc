@@ -24,3 +24,29 @@ Der Chatbot soll Nutzern die Möglichkeit geben, Fragen in natürlicher Sprache 
 Der Chatbot, Leonie genannt, ist bereits eingerichtet und kann einige Fragen der Nutzer beantworten.
 Die Basis des Chatbots wurde mit https://rasa.com/docs/[Rasa] konfiguriert.
 
+
+== Ausgangssituation
+Derzeit können auf der Online-Plattform der HTL Leonding Fragen von Schülern, Eltern und Interessenten nur umständlich beantwortet werden, dies ist zeitaufwendig und unübersichtlich.
+Um die Interaktion mit Nutzern zu vereinfachen und schnellere Antworten zu ermöglichen, hat die HTL Leonding beschlossen, einen Chatbot einzuführen.
+Der Chatbot soll Nutzern die Möglichkeit geben, Fragen in natürlicher Sprache zu stellen und automatisch relevante Informationen bereitzustellen.
+
+
+== Istzustand
+Der Chatbot, Leonie genannt, ist bereits eingerichtet und kann einige Fragen der Nutzer beantworten.
+Die Basis des Chatbots wurde mit https://rasa.com/docs/[Rasa] konfiguriert.
+
+
+== Problemstellung
+Obwohl Leonie bereits einige Fragen beantworten kann, gibt es noch Möglichkeiten zur Verbesserung in Bezug auf die Schreibweise und die Art der Antworten,
+um eine natürlichere Interaktion mit Nutzern zu ermöglichen.
+Hinzu ist der Wissensbereich des Chatbots noch begrenzt und es besteht Bedarf an Erweiterungen, um Anfragen von Nutzern in Bezug auf verschiedene Bereiche der HTL Leonding beantworten zu können.
+
+
+== Ziele
+Unser Ziel ist es, den Chatbot mithilfe von Daten auszubauen.
+
+Dies umfasst:
+
+* Verbesserung der Schreibweise und Antwortmöglichkeiten des Chatbots, um eine natürlichere Interaktion mit Nutzern zu ermöglichen.
+* Erweiterung des Wissensbereichs des Chatbots, um Anfragen von Nutzern in Bezug auf verschiedene Bereiche der HTL Leonding beantworten zu können.
+* Optimierung der Benutzeroberfläche, um die Interaktion mit dem Chatbot zu vereinfachen und zu verbessern.
