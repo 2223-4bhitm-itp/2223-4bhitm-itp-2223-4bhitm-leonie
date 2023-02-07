@@ -31,3 +31,7 @@ include::plantuml/school-ucd.puml[]
 ----
 include::plantuml/user-ucd.puml[]
 ----
+
+=== Systemarchitektur
+
+image::23-02-07-systemarchitektur.png[]
