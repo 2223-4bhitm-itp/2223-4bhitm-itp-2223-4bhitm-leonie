@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor "admin" as fc
+rectangle Leonie-chatbot-system {
+  usecase "viewing past conversations" as UC1
+  usecase "changing data of the RASA model" as UC2
+  usecase "training and providing RASA model" as UC3
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+@enduml
+
+
