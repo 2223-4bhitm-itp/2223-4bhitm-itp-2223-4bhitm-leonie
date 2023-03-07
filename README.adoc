@@ -43,3 +43,7 @@ image::https://www.plantuml.com/plantuml/png/JOv1JiGm34NtESNNxBjWkC18RDbo09EuRQJ
 
 == Whisper AI and Google text to speech
 * https://2223-4bhitm-itp.github.io/2223-4bhitm-itp-2223-4bhitm-leonie/whisperAI-vs-googleTextToSpeech[Explanation]
+
+== MQTT
+
+* https://github.com/ThallerDavid/mqtt-with-quarkus[Simple MQTT example + documentation]
